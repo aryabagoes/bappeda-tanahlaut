@@ -1,0 +1,403 @@
+h2 {
+	&.title{
+		padding : 5px 10px;	
+		color : $hijau;
+		border-left : solid 5px $kuning;
+		margin-bottom : 15px;	
+	}		
+}
+
+#produk-detail {
+	li {
+		display : inline-table;
+		padding : 5px;
+	}
+	text-align : center;
+}
+
+/*  BOX PENCARIAN  */
+
+input[type="search"]{
+	padding-left:30px;
+	outline: none;
+	border :0;		
+    border: 1px solid #DDDDDD;
+	border-radius:3px;
+
+	&:focus {			
+		@include transition-duration (.5s);
+		box-shadow: 0 0 5px $kuning;  		
+	}	
+
+	&.highlight {
+    border: 1px solid #ffcc33;
+    box-shadow: 0 0 1px #ffff00;	
+	}
+}	
+
+#pencarian {
+	margin-top : 11px;
+}
+.input-pencarian {	
+	background: $putih url('../img/search-icon.png') no-repeat 5px center;	
+	width: 200px;
+    height: 25px;
+}
+/*  AKHIR BOX PENCARIAN  */
+
+.fixed {
+	position: fixed;
+	width:100%; 
+	top:0; 
+	z-index:9999;
+	@include box-shadow(0 1px 4px $text-gray);
+}
+
+
+/*  BAGIAN HEADER  */
+#header {	
+	// background : lighten($hijau,10%);
+	// background : $hijau;
+	color : $putih;
+	padding : 25px;
+
+	@include background-image(linear-gradient(to bottom, lighten($hijau,5%),  $hijau));
+	border-bottom : 1px solid darken($hijau,5%);	
+
+	img {
+		float: left;
+		width: 10%;
+		margin-right : 15px;
+	}
+	
+}
+/*  AKHIR HEADER  */ 
+
+
+/*  NAVIGASI  */
+nav {
+	border-bottom : solid 1px darken($hijau,5%);
+	@include background-image(linear-gradient(to bottom, lighten($hijau,5%), $hijau));
+	text-shadow: 0 2px 2px rgba(0,0,0,.3);
+	color :$putih;
+	
+	a {		
+		&#pull {
+			display: block;
+		}
+		padding: 15px 20px;
+		display: block;
+		color: $putih;
+	}
+
+	ul:after {
+		content:" ";
+		display: block;
+		clear:both;
+	}
+	
+	ul {	
+		z-index: 999;
+		li {
+			float: left;
+			position :relative;
+			display: block;
+
+		    a { 	
+				&:hover {
+					@include transition-duration(0.5s);
+					background : $putih;
+					color: $hijau;
+				}
+			}
+
+			&:hover > ul {
+				display: block;
+			}
+
+			ul {
+				border-top : solid 1px darken($hijau,5%);
+				white-space: nowrap;					
+				position:absolute;
+				top: 100%;
+				display: none;
+				box-shadow: -3px 3px 10px -2px rgba(0,0,0,.4);			
+				
+				li {
+					float:none;
+					border-bottom:  1px solid lighten($hijau,5%);
+					&:last-child {
+						border-bottom : 0;
+					}
+
+					a {						
+						background : $hijau;	
+						padding : 10px 20px 10px 10px;
+					}
+					
+					ul {
+						border : none;	
+						white-space: nowrap;		
+						position: absolute;
+						left: 100%;
+						top:0;					
+					}
+				}
+			}	
+		}
+	}
+}
+/*  AKHIR NAVIGASI  */
+
+
+
+/*  BAGIAN KONTEN BERITA */
+section {
+	a {
+		color : $hijau,;
+		
+		&.read-more {
+			@include border-radius (3px);
+			float: right;
+			font-size: .9em;
+			color: $putih;
+			margin-top : 5px;
+			padding :5px 10px;
+			background : lighten($hijau,10%);
+
+			&:hover {
+				@include transition-duration(0.5s);
+				background-color : $hijau;
+			}
+		}
+	}
+
+	article {
+		display : block;
+		overflow: hidden;
+		padding-bottom: 10px;
+		border-bottom: 1px dashed lighten($text-gray,30%);
+		clear : both;
+		
+		&:last-child {
+			border-bottom : 0;
+			margin-bottom: 0;
+		}
+
+		.tanggal-post {
+			font-size: 12px;
+		}
+
+		h3 {
+			color: $hijau;
+			a {
+				&:hover {
+					@include transition-duration (.5s);
+					color: $text-gray;
+					text-decoration: underline;
+				}
+			}
+
+		}
+		
+		p {
+			margin: 10px 0;
+		}
+
+		img {
+			float: left;
+			display: block;
+			margin: 0px 10px 10px 0;
+		}
+	}
+}
+/*  AKHIR KONTEN BERITA  */
+
+
+/* BAGIAN ASIDE */ 
+.agenda {
+
+	.item-agenda {
+		padding-bottom: 5px;
+		border-bottom : 1px dashed #e3e3e3;
+		overflow: hidden;
+
+		&:last-child {
+			border-bottom : 0;
+			margin-bottom: 0;
+			padding-bottom : 0;
+		}
+
+
+	}
+
+	clear: both;
+	overflow : hidden;
+	display : block;
+	padding : 20px 15px 10px 20px;
+	// border-bottom : 1px dashed #e7e7e7; 
+	li {
+		// border-bottom : 1px dashed #e7e7e7; 
+		margin-bottom: 10px;
+	}
+
+	.kalender {	
+		@include border-radius (5px);
+		background : lighten($biru,40%);
+		clear : both;
+		float : left;
+		font-size : 12px;
+		margin : 0 10px 10px 0;
+		margin-bottom : 10px;
+		overflow : hidden;
+		text-align : center;
+		width : 60px;	
+		color : $putih;
+		.hari {
+			display: block;			
+			background: $biru;
+			padding: 2px;	
+			margin-bottom: 2px;	
+		}
+		.tanggal {
+			font-size: 20px;
+			font-weight: bold;
+			display: block;	
+		}
+		.bulan {
+			display: block;			
+		}
+	}
+
+	.detail-agenda {
+
+		line-height: 25px;
+		display: block;
+		overflow: hidden;
+
+		.acara {
+			a {	
+				line-height: 20px;
+				color: lighten($biru,15%);
+				&:hover {
+					@include transition-duration (.5s);
+					color: $biru;
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}
+
+.box {
+	overflow : hidden;
+	background : #ffffff;	
+	margin-bottom :20px;
+	@include box-shadow(1px 0 15px #c7c7c7);
+	
+	.judul-box {		
+		background : $hijau;
+		color: #ffffff;
+		padding : 10px;
+		border-bottom : 4px solid $kuning;
+	}
+
+	.detail-box{		
+		li {
+			padding : 10px;
+
+			&:last-child {
+				border-bottom : 0;
+			}
+			
+			&:hover {
+				@include transition-duration(0.5s);
+				background : #f7f7f7;
+			}
+		}
+	}
+
+	.item-box {
+		border-bottom : 1px dashed lighten($text-gray,30%);
+		a {
+			display: block;		
+			color : $text-gray;
+			&:hover {				
+				@include transition-duration(0.5s);				
+				color : $hijau;		
+			}
+		}
+	}	
+}
+/* AKHIR ASIDE */ 
+
+
+/* BAGIAN KONTEN PRODUK UNGGULAN*/ 
+#produk {
+	// border-top: 3px solid lighten($biru,20%);	
+	// padding-top: 15px;
+	margin : 5px 0 20px 0;
+}
+/* AKHIR KONTEN PRODUK UNGGULAN*/ 
+
+
+/*  BAGIAN FOOTER  */
+
+footer {
+	// border-top : solid 5px $kuning;
+	border-top : solid 6px $kuning;
+	color : lighten($text-gray, 15%);
+
+	h3 {
+		color: $kuning;
+		border-bottom: 1px solid $text-gray;
+		// margin-bottom: 15px; 
+		padding: 0 0 5px 0px;
+	}
+
+	.tautan {
+		ul {
+			margin-top: 5px;
+			padding-top : 4px;
+			
+			li {
+				border-bottom : 1px dotted $text-gray;					
+			}
+		}
+
+		a {
+			padding : 5px 0;	
+			color : lighten($text-gray, 15%);
+
+			&:hover {
+				@include transition-duration(.5s);
+				color: $kuning;
+				text-decoration:underline;		
+			}
+		}
+	}
+
+	#footer-top {
+		p {
+			text-align: left;	
+			padding-top :15px;		
+		}
+
+		background : #505050;
+		padding: 15px 0; 
+	}
+
+	#footer-bottom {
+		p {
+			text-align: center;
+			color : $putih;
+		}
+
+		background : #313131;
+		font-size: .9em;
+		padding: 10px 0;
+	}
+}
+
+/* AKHIR FOOTER */ 
+

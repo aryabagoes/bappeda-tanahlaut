@@ -1,0 +1,52 @@
+@import 'compass';
+@import 'compass/css3';
+@import 'lib/zeen';
+@import 'helper/variable';
+@import 'style/general';
+
+section {
+	background : $text-gray;
+}
+img {
+	margin : 0;
+	padding :0;
+}
+
+.kiri {
+	float : left;
+}
+
+.kanan {
+	float : right;
+}
+
+body {
+	color : $putih;
+}
+
+.no-margin {
+	margin : 0;
+}
+
+
+header {
+	background : $hijau;	
+	h2 {
+		padding: 15px 0;
+		span {
+			font-weight : normal;
+			font-size: 14px;
+		}	
+	}
+}
+
+
+footer {
+	clear: both;
+	p {
+		text-align : center;
+		
+	}
+	padding : 15px;
+	background : $hijau;
+}

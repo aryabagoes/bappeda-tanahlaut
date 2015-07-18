@@ -1,0 +1,64 @@
+
+body {
+	// font-family :Arial;
+	// font-family :"Ubuntu", Tahoma, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family : "Arial",sans-serif;
+
+	font-size : 14px;
+	font-weight : 300;	
+	color : $text-gray;
+	letter-spacing : -0.1px;
+	line-height :20px;
+}
+h1,h2,h3,h4,a,ul,li,p {
+	margin : 0;
+	padding : 0;
+	display : block;
+	// text-decoration: none;
+}
+
+h1,h2,h3 {
+	//letter-spacing : -1px;
+
+}
+
+ul, li {
+	display : block;
+	margin :0;
+	padding:0;	
+}
+
+
+a {
+	text-decoration :none;
+	color : $text-hitam;
+    display : block;
+}
+
+h1 {font-size : 1.8em;}
+h2 {font-size : 1.5em;}
+h3 {font-size : 1.2em;}
+
+
+footer {
+	// margin-top : 20px;
+}
+
+article {
+	margin-bottom : 20px;
+}
+
+p {
+	line-height : 20px;
+	text-align : justify;
+}
+
+.kanan {
+	float : right;
+
+}
+
+.kiri {
+	float : left;
+	
+}
