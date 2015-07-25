@@ -1,7 +1,6 @@
 #landing{
 	position: relative;
 	height: 100vh;
-	// background: url('../img/main-bg.jpg?1429189443') center;
 	background: image-url('bg-landing.jpg') top;
 	background-size: cover;
 	display: flex;
@@ -9,13 +8,30 @@
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	h1{
+		color:$biru;
+		margin-top:-36px;
+		margin-bottom: 15px;
+		line-height: 30px;
+		span{
+			display: block;
+		}
+	}
 }
 
 #kotak{
 	background: #fff;
-	width: 80%;
+	width: 70%;
 	margin:auto;
+	header{
+		@include background-image(linear-gradient(lighten(#ddd,5%), #fff));
+	}
+	section{
+		display: block;
+	}
 	footer{
+		padding:15px;
+		display: block;
 		border-top:none !important;
 	}
 }
