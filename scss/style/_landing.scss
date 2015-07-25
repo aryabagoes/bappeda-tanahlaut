@@ -1,7 +1,6 @@
 #landing{
 	position: relative;
 	height: 100vh;
-	margin-bottom: 50px;
 	// background: url('../img/main-bg.jpg?1429189443') center;
 	background: image-url('bg-landing.jpg') top;
 	background-size: cover;
@@ -16,6 +15,9 @@
 	background: #fff;
 	width: 80%;
 	margin:auto;
+	footer{
+		border-top:none !important;
+	}
 }
 
 .logo{
