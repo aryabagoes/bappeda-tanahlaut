@@ -11,10 +11,14 @@
 	h1{
 		color:$biru;
 		margin-top:-36px;
-		margin-bottom: 15px;
-		line-height: 30px;
+		// margin-bottom: 15px;
+		font-size: 20px;
+		line-height: 25px;
 		span{
 			display: block;
+			color:darken(#aaa,10%);
+			font-size: 12px;
+			font-weight: 100;
 		}
 	}
 	z-index: -2;
@@ -27,7 +31,9 @@
 	width: 70%;
 	margin:auto;
 	header{
-		// @include background-image(linear-gradient(lighten(#ddd,1%), #fff));
+		@include background-image(linear-gradient(#fff,lighten(#eee,1%)));
+		@include box-shadow(0 -2px 3px #ddd inset);
+		padding-bottom: 15px;
 	}
 	section{
 		display: block;
@@ -37,7 +43,9 @@
 		padding:15px;
 		display: block;
 		border-top:none !important;
-		@include background-image(linear-gradient(transparent,lighten(#ccc,5%)));
+		// @include background-image(linear-gradient(lighten(#eee,5%),#eee));
+		background: #eee;
+		@include box-shadow(0 1px 5px #ddd inset);
 	}
 	&:before{
 		content:"";
@@ -58,32 +66,32 @@
 	display: block;
 	top:-50px;
 	position: relative;
-	width: 80px;
+	width: 70px;
 }
 
 .btn{
 	background: #fff;
 	overflow: hidden;
-	padding:35px;
+	padding:25px 50px 10px 50px;
 	display: inline-block;
 	@include border-radius(100%);
 	position: relative;
-	top:-50px;
-	margin-bottom: -55px;
+	top:-40px;
+	margin-bottom: -40px;
 	a{
 		@include transition-duration(0.2s);
 		font-weight: bold;
 		color:#444;
-		font-size: 35px;
+		font-size: 28px;
 		line-height: 30px;
 		&:hover{
 			color: $hijau;
 		}
 		span{
 			font-weight: normal;
-			color:darken(#eee,20%);
+			color:#aaa;
 			display: block;
-			font-size: 14px;
+			font-size: 12px;
 		}
 	}
 	
