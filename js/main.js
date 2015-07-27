@@ -5,7 +5,7 @@ $(document).ready(function()
 		.parallax({
 			mouseport: $('body'),
 			xparallax:'100%',
-			yparallax:'0'
+			yparallax:0
 
 		})
 })
