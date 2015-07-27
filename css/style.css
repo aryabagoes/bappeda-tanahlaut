@@ -954,7 +954,7 @@ footer #footer-bottom p {
 .btn {
   background: #fff;
   overflow: hidden;
-  padding: 25px 50px 10px 50px;
+  padding: 25px 50px 20px 50px;
   display: inline-block;
   -moz-border-radius: 100%;
   -webkit-border-radius: 100%;
@@ -984,6 +984,7 @@ footer #footer-bottom p {
   color: #aaa;
   display: block;
   font-size: 12px;
+  line-height: 15px;
 }
 
 @media only screen and (max-width: 700px) {
