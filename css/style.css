@@ -922,14 +922,14 @@ footer #footer-bottom p {
   font-weight: 100;
 }
 
-/* line 28, ../scss/style/_landing.scss */
+/* line 27, ../scss/style/_landing.scss */
 #kotak {
   position: relative;
   background: #fff;
   width: 70%;
   margin: auto;
 }
-/* line 33, ../scss/style/_landing.scss */
+/* line 32, ../scss/style/_landing.scss */
 #kotak header {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2YxZjFmMSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
@@ -942,11 +942,11 @@ footer #footer-bottom p {
   box-shadow: 0 -2px 3px #ddd inset;
   padding-bottom: 15px;
 }
-/* line 38, ../scss/style/_landing.scss */
+/* line 37, ../scss/style/_landing.scss */
 #kotak section {
   display: block;
 }
-/* line 41, ../scss/style/_landing.scss */
+/* line 40, ../scss/style/_landing.scss */
 #kotak footer {
   color: #444;
   padding: 15px;
@@ -957,7 +957,7 @@ footer #footer-bottom p {
   -webkit-box-shadow: 0 1px 5px #ddd inset;
   box-shadow: 0 1px 5px #ddd inset;
 }
-/* line 50, ../scss/style/_landing.scss */
+/* line 49, ../scss/style/_landing.scss */
 #kotak:before {
   content: "";
   display: block;
@@ -971,7 +971,7 @@ footer #footer-bottom p {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* line 64, ../scss/style/_landing.scss */
+/* line 63, ../scss/style/_landing.scss */
 .logo {
   margin: auto;
   display: block;
@@ -981,7 +981,7 @@ footer #footer-bottom p {
   height: 80%;
 }
 
-/* line 73, ../scss/style/_landing.scss */
+/* line 72, ../scss/style/_landing.scss */
 .btn {
   background: #fff;
   overflow: hidden;
@@ -994,7 +994,7 @@ footer #footer-bottom p {
   top: -40px;
   margin-bottom: -40px;
 }
-/* line 82, ../scss/style/_landing.scss */
+/* line 81, ../scss/style/_landing.scss */
 .btn a {
   -moz-transition-duration: 0.2s;
   -o-transition-duration: 0.2s;
@@ -1005,11 +1005,11 @@ footer #footer-bottom p {
   font-size: 28px;
   line-height: 30px;
 }
-/* line 88, ../scss/style/_landing.scss */
+/* line 87, ../scss/style/_landing.scss */
 .btn a:hover {
   color: #3e9968;
 }
-/* line 91, ../scss/style/_landing.scss */
+/* line 90, ../scss/style/_landing.scss */
 .btn a span {
   font-weight: normal;
   color: #aaa;
@@ -1018,7 +1018,7 @@ footer #footer-bottom p {
   line-height: 15px;
 }
 
-/* line 102, ../scss/style/_landing.scss */
+/* line 101, ../scss/style/_landing.scss */
 #awan {
   position: relative;
   overflow: hidden;
@@ -1026,117 +1026,128 @@ footer #footer-bottom p {
   height: 250px;
 }
 
-/* line 105, ../scss/style/_landing.scss */
+/* line 104, ../scss/style/_landing.scss */
 .awan-viewport {
   position: relative;
   /* relative, absolute, fixed */
   overflow: hidden;
 }
 
-/* line 109, ../scss/style/_landing.scss */
+/* line 108, ../scss/style/_landing.scss */
 .awan-latar {
   position: absolute;
   top: 0;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 6, ../scss/style/_responsive.scss */
+  /* line 5, ../scss/style/_responsive.scss */
+  .awan-latar {
+    display: none;
+  }
+
+  /* line 8, ../scss/style/_responsive.scss */
+  .logo {
+    visibility: hidden;
+    width: 50px;
+  }
+
+  /* line 12, ../scss/style/_responsive.scss */
   #slider {
     display: none;
   }
 
-  /* line 10, ../scss/style/_responsive.scss */
+  /* line 16, ../scss/style/_responsive.scss */
   section {
     margin-bottom: 15px !important;
   }
-  /* line 12, ../scss/style/_responsive.scss */
+  /* line 18, ../scss/style/_responsive.scss */
   section img {
     display: none !important;
   }
 
-  /* line 16, ../scss/style/_responsive.scss */
+  /* line 22, ../scss/style/_responsive.scss */
   .zeen-4, .zeen-8 {
     float: left;
     width: 100%;
     margin: 0;
   }
 
-  /* line 23, ../scss/style/_responsive.scss */
+  /* line 29, ../scss/style/_responsive.scss */
   #footer-top .kontak, #footer-top .tautan, #footer-top .polling {
     margin-bottom: 20px;
   }
 
-  /* line 28, ../scss/style/_responsive.scss */
+  /* line 34, ../scss/style/_responsive.scss */
   #header {
     text-align: center;
   }
-  /* line 29, ../scss/style/_responsive.scss */
+  /* line 35, ../scss/style/_responsive.scss */
   #header .bungkus {
     padding: 0;
   }
-  /* line 33, ../scss/style/_responsive.scss */
+  /* line 39, ../scss/style/_responsive.scss */
   #header h1 {
     font-size: 24px;
     line-height: 25px;
   }
-  /* line 37, ../scss/style/_responsive.scss */
+  /* line 43, ../scss/style/_responsive.scss */
   #header h1 span {
     display: block;
     font-size: 16px;
     font-weight: 100;
   }
 
-  /* line 49, ../scss/style/_responsive.scss */
+  /* line 50, ../scss/style/_responsive.scss */
   nav {
     display: block;
     margin-bottom: 10px;
   }
-  /* line 54, ../scss/style/_responsive.scss */
+  /* line 55, ../scss/style/_responsive.scss */
   nav a {
     padding: 15px 20px;
     display: block;
     color: #ffffff;
   }
-  /* line 60, ../scss/style/_responsive.scss */
+  /* line 61, ../scss/style/_responsive.scss */
   nav #resp-menu {
     display: block;
     background: url("../img/nav-icon.png") no-repeat center left;
     padding: 25px 0;
   }
-  /* line 69, ../scss/style/_responsive.scss */
+  /* line 70, ../scss/style/_responsive.scss */
   nav ul#main-menu {
     display: none;
   }
-  /* line 72, ../scss/style/_responsive.scss */
+  /* line 73, ../scss/style/_responsive.scss */
   nav ul li {
     float: none;
   }
-  /* line 73, ../scss/style/_responsive.scss */
+  /* line 74, ../scss/style/_responsive.scss */
   nav ul li a {
     padding: 8px;
   }
-  /* line 77, ../scss/style/_responsive.scss */
+  /* line 78, ../scss/style/_responsive.scss */
   nav ul li > ul {
     border: none;
     box-shadow: none;
     display: block;
     position: relative;
   }
-  /* line 83, ../scss/style/_responsive.scss */
+  /* line 84, ../scss/style/_responsive.scss */
   nav ul li > ul li {
     border: none;
   }
-  /* line 85, ../scss/style/_responsive.scss */
+  /* line 86, ../scss/style/_responsive.scss */
   nav ul li > ul li > a {
     padding: 8px 8px 8px 25px;
     background: rgba(255, 0, 255, 0);
   }
-  /* line 90, ../scss/style/_responsive.scss */
+  /* line 91, ../scss/style/_responsive.scss */
   nav ul li > ul li ul {
     position: relative;
     left: 0;
   }
-  /* line 92, ../scss/style/_responsive.scss */
+  /* line 93, ../scss/style/_responsive.scss */
   nav ul li > ul li ul li > a {
     padding: 8px 8px 8px 40px;
   }
