@@ -270,7 +270,7 @@ img {
   position: relative;
   *zoom: 1;
 }
-/* line 38, ../../../../.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scss */
 .bungkus:after {
   content: "";
   display: table;
@@ -285,7 +285,7 @@ img {
   max-width: 978px;
   *zoom: 1;
 }
-/* line 38, ../../../../.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scss */
 .baris:after {
   content: "";
   display: table;
@@ -897,7 +897,7 @@ footer #footer-bottom p {
 #landing {
   position: relative;
   height: 100vh;
-  background: url('../img/bg-landing.jpg?1437901126') top;
+  background: url('../img/bg-landing.jpg?1437789703') top;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -916,7 +916,7 @@ footer #footer-bottom p {
 /* line 17, ../scss/style/_landing.scss */
 #landing h1 span {
   display: block;
-  color: #919191;
+  color: #909090;
   font-size: 12px;
   font-weight: 100;
 }
@@ -976,10 +976,11 @@ footer #footer-bottom p {
   display: block;
   top: -50px;
   position: relative;
-  width: 130px;
+  width: 80px;
+  height: 80%;
 }
 
-/* line 72, ../scss/style/_landing.scss */
+/* line 73, ../scss/style/_landing.scss */
 .btn {
   background: #fff;
   overflow: hidden;
@@ -992,7 +993,7 @@ footer #footer-bottom p {
   top: -40px;
   margin-bottom: -40px;
 }
-/* line 81, ../scss/style/_landing.scss */
+/* line 82, ../scss/style/_landing.scss */
 .btn a {
   -moz-transition-duration: 0.2s;
   -o-transition-duration: 0.2s;
@@ -1003,11 +1004,11 @@ footer #footer-bottom p {
   font-size: 28px;
   line-height: 30px;
 }
-/* line 87, ../scss/style/_landing.scss */
+/* line 88, ../scss/style/_landing.scss */
 .btn a:hover {
   color: #3e9968;
 }
-/* line 90, ../scss/style/_landing.scss */
+/* line 91, ../scss/style/_landing.scss */
 .btn a span {
   font-weight: normal;
   color: #aaa;
@@ -1016,7 +1017,7 @@ footer #footer-bottom p {
   line-height: 15px;
 }
 
-/* line 101, ../scss/style/_landing.scss */
+/* line 102, ../scss/style/_landing.scss */
 #awan {
   position: relative;
   overflow: hidden;
@@ -1024,60 +1025,60 @@ footer #footer-bottom p {
   height: 250px;
 }
 
-/* line 104, ../scss/style/_landing.scss */
+/* line 105, ../scss/style/_landing.scss */
 .awan-viewport {
   position: relative;
   /* relative, absolute, fixed */
   overflow: hidden;
 }
 
-/* line 108, ../scss/style/_landing.scss */
+/* line 109, ../scss/style/_landing.scss */
 .awan-latar {
   position: absolute;
   top: 0;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 5, ../scss/style/_responsive.scss */
+  /* line 7, ../scss/style/_responsive.scss */
   #slider {
     display: none;
   }
 
-  /* line 9, ../scss/style/_responsive.scss */
+  /* line 11, ../scss/style/_responsive.scss */
   section {
     margin-bottom: 15px !important;
   }
-  /* line 11, ../scss/style/_responsive.scss */
+  /* line 13, ../scss/style/_responsive.scss */
   section img {
     display: none !important;
   }
 
-  /* line 15, ../scss/style/_responsive.scss */
+  /* line 17, ../scss/style/_responsive.scss */
   .zeen-4, .zeen-8 {
     float: left;
     width: 100%;
     margin: 0;
   }
 
-  /* line 22, ../scss/style/_responsive.scss */
+  /* line 24, ../scss/style/_responsive.scss */
   #footer-top .kontak, #footer-top .tautan, #footer-top .polling {
     margin-bottom: 20px;
   }
 
-  /* line 27, ../scss/style/_responsive.scss */
+  /* line 29, ../scss/style/_responsive.scss */
   #header {
     text-align: center;
   }
-  /* line 28, ../scss/style/_responsive.scss */
+  /* line 30, ../scss/style/_responsive.scss */
   #header .bungkus {
     padding: 0;
   }
-  /* line 32, ../scss/style/_responsive.scss */
+  /* line 34, ../scss/style/_responsive.scss */
   #header h1 {
     font-size: 24px;
     line-height: 25px;
   }
-  /* line 36, ../scss/style/_responsive.scss */
+  /* line 38, ../scss/style/_responsive.scss */
   #header h1 span {
     display: block;
     font-size: 16px;
@@ -1085,22 +1086,36 @@ footer #footer-bottom p {
   }
 
   /* line 47, ../scss/style/_responsive.scss */
+  #main-menu {
+    display: none;
+  }
+
+  /* line 52, ../scss/style/_responsive.scss */
   nav {
     display: block;
     margin-bottom: 10px;
   }
+<<<<<<< HEAD
   /* line 54, ../scss/style/_responsive.scss */
+=======
+  /* line 57, ../scss/style/_responsive.scss */
+>>>>>>> 43bd9781b59280881ec12ed5119cd0127d098de3
   nav a {
     padding: 15px 20px;
     display: block;
     color: #ffffff;
   }
+<<<<<<< HEAD
   /* line 60, ../scss/style/_responsive.scss */
+=======
+  /* line 63, ../scss/style/_responsive.scss */
+>>>>>>> 43bd9781b59280881ec12ed5119cd0127d098de3
   nav #resp-menu {
     display: block;
     background: url("../img/nav-icon.png") no-repeat center left;
     padding: 25px 0;
   }
+<<<<<<< HEAD
   /* line 70, ../scss/style/_responsive.scss */
   nav ul li {
     float: none;
@@ -1110,32 +1125,63 @@ footer #footer-bottom p {
     padding: 8px;
   }
   /* line 75, ../scss/style/_responsive.scss */
+=======
+  /* line 76, ../scss/style/_responsive.scss */
+  nav ul li {
+    float: none;
+  }
+  /* line 77, ../scss/style/_responsive.scss */
+  nav ul li a {
+    padding: 8px;
+  }
+  /* line 81, ../scss/style/_responsive.scss */
+>>>>>>> 43bd9781b59280881ec12ed5119cd0127d098de3
   nav ul li > ul {
     border: none;
     box-shadow: none;
     display: block;
     position: relative;
   }
+<<<<<<< HEAD
   /* line 81, ../scss/style/_responsive.scss */
   nav ul li > ul li {
     border: none;
   }
   /* line 83, ../scss/style/_responsive.scss */
+=======
+  /* line 87, ../scss/style/_responsive.scss */
+  nav ul li > ul li {
+    border: none;
+  }
+  /* line 89, ../scss/style/_responsive.scss */
+>>>>>>> 43bd9781b59280881ec12ed5119cd0127d098de3
   nav ul li > ul li > a {
     padding: 8px 8px 8px 25px;
     background: rgba(255, 0, 255, 0);
   }
+<<<<<<< HEAD
   /* line 88, ../scss/style/_responsive.scss */
+=======
+  /* line 94, ../scss/style/_responsive.scss */
+>>>>>>> 43bd9781b59280881ec12ed5119cd0127d098de3
   nav ul li > ul li ul {
     position: relative;
     left: 0;
   }
+<<<<<<< HEAD
   /* line 90, ../scss/style/_responsive.scss */
+=======
+  /* line 96, ../scss/style/_responsive.scss */
+>>>>>>> 43bd9781b59280881ec12ed5119cd0127d098de3
   nav ul li > ul li ul li > a {
     padding: 8px 8px 8px 40px;
   }
 
+<<<<<<< HEAD
   /* line 117, ../scss/style/_responsive.scss */
+=======
+  /* line 113, ../scss/style/_responsive.scss */
+>>>>>>> 43bd9781b59280881ec12ed5119cd0127d098de3
   #landing header {
     margin-bottom: 50px;
   }
