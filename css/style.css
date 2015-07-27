@@ -1,110 +1,1148 @@
-/*
-Error: Invalid CSS after "		display: block": expected "{", was ";"
-        on line 57 of /Users/muslih/Documents/project/bappeda-tanahlaut/scss/style/_responsive.scss
-        from line 8 of /Users/muslih/Documents/project/bappeda-tanahlaut/scss/style.scss
+/* line 2, ../scss/lib/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
 
-52: 		
-53: 			
-54: =======
-55: >>>>>>> 43bd9781b59280881ec12ed5119cd0127d098de3
-56: 		// height: auto;
-57: 		display: block;
-58: 		margin-bottom: 10px;
-59: 
-60: 		a {		
-61: 			padding: 15px 20px;
-62: 			display: block;
+/* line 17, ../scss/lib/_normalize.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+}
 
-Backtrace:
-/Users/muslih/Documents/project/bappeda-tanahlaut/scss/style/_responsive.scss:57
-/Users/muslih/Documents/project/bappeda-tanahlaut/scss/style.scss:8
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/scss/parser.rb:1165:in `expected'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/scss/parser.rb:1101:in `expected'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/scss/parser.rb:1096:in `tok!'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/scss/parser.rb:641:in `block'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/scss/parser.rb:661:in `block_child'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/scss/parser.rb:650:in `block_contents'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/scss/parser.rb:642:in `block'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/scss/parser.rb:661:in `block_child'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/scss/parser.rb:653:in `block_contents'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/scss/parser.rb:642:in `block'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/scss/parser.rb:401:in `media_directive'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/scss/parser.rb:219:in `special_directive'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/scss/parser.rb:194:in `directive'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/scss/parser.rb:660:in `block_child'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/scss/parser.rb:653:in `block_contents'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/scss/parser.rb:117:in `stylesheet'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/scss/parser.rb:42:in `parse'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/engine.rb:393:in `_to_tree'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/engine.rb:299:in `to_tree'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:323:in `block in visit_import'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/stack.rb:88:in `block in with_import'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/stack.rb:88:in `with_import'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/stack.rb:79:in `block in with_base'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `map'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:157:in `visit'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:8:in `visit'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/tree/root_node.rb:20:in `render'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/engine.rb:268:in `render'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `each'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/compass-1.0.1/lib/compass/sass_compiler.rb:40:in `compile!'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/compass-1.0.1/lib/compass/commands/update_project.rb:49:in `perform'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/compass-1.0.1/lib/compass/commands/base.rb:18:in `execute'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/compass-1.0.1/lib/compass/commands/project_base.rb:19:in `execute'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/guard-compass-1.1.0/lib/guard/compass.rb:140:in `perform'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/guard-compass-1.1.0/lib/guard/compass.rb:123:in `run_on_change'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/guard-2.6.1/lib/guard/runner.rb:74:in `block in run_supervised_task'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/guard-2.6.1/lib/guard/runner.rb:71:in `catch'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/guard-2.6.1/lib/guard/runner.rb:71:in `run_supervised_task'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/guard-2.6.1/lib/guard/runner.rb:119:in `block in _run_first_task_found'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/guard-2.6.1/lib/guard/runner.rb:117:in `each'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/guard-2.6.1/lib/guard/runner.rb:117:in `_run_first_task_found'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/guard-2.6.1/lib/guard/runner.rb:53:in `block in run_on_changes'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/guard-2.6.1/lib/guard/runner.rb:150:in `block (3 levels) in _scoped_plugins'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/guard-2.6.1/lib/guard/runner.rb:148:in `each'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/guard-2.6.1/lib/guard/runner.rb:148:in `block (2 levels) in _scoped_plugins'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/guard-2.6.1/lib/guard/runner.rb:147:in `catch'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/guard-2.6.1/lib/guard/runner.rb:147:in `block in _scoped_plugins'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/guard-2.6.1/lib/guard/runner.rb:145:in `each'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/guard-2.6.1/lib/guard/runner.rb:145:in `_scoped_plugins'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/guard-2.6.1/lib/guard/runner.rb:46:in `run_on_changes'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/guard-2.6.1/lib/guard/setuper.rb:296:in `block (2 levels) in _listener_callback'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/guard-2.6.1/lib/guard/commander.rb:108:in `block in within_preserved_state'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/guard-2.6.1/lib/guard/commander.rb:105:in `synchronize'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/guard-2.6.1/lib/guard/commander.rb:105:in `within_preserved_state'
-/Users/muslih/.rvm/gems/ruby-2.1.2/gems/guard-2.6.1/lib/guard/setuper.rb:295:in `block in _listener_callback'
-/Users/muslih/.rvm/gems/ruby-2.1.2@global/gems/listen-2.10.0/lib/listen/listener.rb:291:in `call'
-/Users/muslih/.rvm/gems/ruby-2.1.2@global/gems/listen-2.10.0/lib/listen/listener.rb:291:in `_process_changes'
-/Users/muslih/.rvm/gems/ruby-2.1.2@global/gems/listen-2.10.0/lib/listen/listener.rb:255:in `block in _wait_for_changes'
-/Users/muslih/.rvm/gems/ruby-2.1.2@global/gems/listen-2.10.0/lib/listen/listener.rb:238:in `loop'
-/Users/muslih/.rvm/gems/ruby-2.1.2@global/gems/listen-2.10.0/lib/listen/listener.rb:238:in `_wait_for_changes'
-/Users/muslih/.rvm/gems/ruby-2.1.2@global/gems/listen-2.10.0/lib/listen/listener.rb:327:in `block in _start_wait_thread'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"		display: block\": expected \"{\", was \";\"\A         on line 57 of /Users/muslih/Documents/project/bappeda-tanahlaut/scss/style/_responsive.scss\A         from line 8 of /Users/muslih/Documents/project/bappeda-tanahlaut/scss/style.scss\A \A 52: 		\A 53: 			\A 54: =======\A 55: >>>>>>> 43bd9781b59280881ec12ed5119cd0127d098de3\A 56: 		// height: auto;\A 57: 		display: block;\A 58: 		margin-bottom: 10px;\A 59: \A 60: 		a {		\A 61: 			padding: 15px 20px;\A 62: 			display: block;"; }
+/* line 23, ../scss/lib/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 29, ../scss/lib/_normalize.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 34, ../scss/lib/_normalize.scss */
+html {
+  background: #fff;
+  /* 1 */
+  color: #000;
+  /* 2 */
+  font-family: sans-serif;
+  /* 3 */
+  -ms-text-size-adjust: 100%;
+  /* 4 */
+  -webkit-text-size-adjust: 100%;
+  /* 4 */
+}
+
+/* line 43, ../scss/lib/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* line 48, ../scss/lib/_normalize.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/* line 52, ../scss/lib/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* line 57, ../scss/lib/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 62, ../scss/lib/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 66, ../scss/lib/_normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 71, ../scss/lib/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 75, ../scss/lib/_normalize.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 81, ../scss/lib/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 86, ../scss/lib/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+/* line 94, ../scss/lib/_normalize.scss */
+pre {
+  white-space: pre-wrap;
+}
+
+/* line 98, ../scss/lib/_normalize.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/* line 102, ../scss/lib/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 106, ../scss/lib/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 114, ../scss/lib/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 118, ../scss/lib/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 122, ../scss/lib/_normalize.scss */
+img {
+  border: 0;
+}
+
+/* line 126, ../scss/lib/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 130, ../scss/lib/_normalize.scss */
+figure {
+  margin: 0;
+}
+
+/* line 134, ../scss/lib/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 140, ../scss/lib/_normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/* line 145, ../scss/lib/_normalize.scss */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/* line 154, ../scss/lib/_normalize.scss */
+button,
+input {
+  line-height: normal;
+}
+
+/* line 159, ../scss/lib/_normalize.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 164, ../scss/lib/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/* line 172, ../scss/lib/_normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/* line 177, ../scss/lib/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/* line 183, ../scss/lib/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/* line 190, ../scss/lib/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 195, ../scss/lib/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 201, ../scss/lib/_normalize.scss */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */
+}
+
+/* line 206, ../scss/lib/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 20, ../scss/lib/_zeen.scss */
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+/* line 25, ../scss/lib/_zeen.scss */
+.bungkus {
+  padding: 0 15px;
+  position: relative;
+  *zoom: 1;
+}
+/* line 38, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scss */
+.bungkus:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 33, ../scss/lib/_zeen.scss */
+.baris {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  max-width: 978px;
+  *zoom: 1;
+}
+/* line 38, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scss */
+.baris:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 46, ../scss/lib/_zeen.scss */
+[class*="zeen"] {
+  float: left;
+  display: inline;
+  min-height: 1px;
+  position: relative;
+  margin-left: 3.09091%;
+}
+/* line 54, ../scss/lib/_zeen.scss */
+[class*="zeen"]:first-child {
+  margin-left: 0;
+}
+
+/* line 60, ../scss/lib/_zeen.scss */
+.zeen-1 {
+  width: 5.5%;
+}
+
+/* line 60, ../scss/lib/_zeen.scss */
+.zeen-2 {
+  width: 14.09091%;
+}
+
+/* line 60, ../scss/lib/_zeen.scss */
+.zeen-3 {
+  width: 22.68182%;
+}
+
+/* line 60, ../scss/lib/_zeen.scss */
+.zeen-4 {
+  width: 31.27273%;
+}
+
+/* line 60, ../scss/lib/_zeen.scss */
+.zeen-5 {
+  width: 39.86364%;
+}
+
+/* line 60, ../scss/lib/_zeen.scss */
+.zeen-6 {
+  width: 48.45455%;
+}
+
+/* line 60, ../scss/lib/_zeen.scss */
+.zeen-7 {
+  width: 57.04545%;
+}
+
+/* line 60, ../scss/lib/_zeen.scss */
+.zeen-8 {
+  width: 65.63636%;
+}
+
+/* line 60, ../scss/lib/_zeen.scss */
+.zeen-9 {
+  width: 74.22727%;
+}
+
+/* line 60, ../scss/lib/_zeen.scss */
+.zeen-10 {
+  width: 82.81818%;
+}
+
+/* line 60, ../scss/lib/_zeen.scss */
+.zeen-11 {
+  width: 91.40909%;
+}
+
+/* line 60, ../scss/lib/_zeen.scss */
+.zeen-12 {
+  width: 100%;
+}
+
+/* line 2, ../scss/style/_general.scss */
+body {
+  font-family: "Arial",sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  color: #858585;
+  letter-spacing: -0.1px;
+  line-height: 20px;
+}
+
+/* line 13, ../scss/style/_general.scss */
+h1, h2, h3, h4, a, ul, li, p {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+/* line 25, ../scss/style/_general.scss */
+ul, li {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 32, ../scss/style/_general.scss */
+a {
+  text-decoration: none;
+  color: #3f3f3f;
+  display: block;
+}
+
+/* line 38, ../scss/style/_general.scss */
+h1 {
+  font-size: 1.8em;
+}
+
+/* line 39, ../scss/style/_general.scss */
+h2 {
+  font-size: 1.5em;
+}
+
+/* line 40, ../scss/style/_general.scss */
+h3 {
+  font-size: 1.2em;
+}
+
+/* line 47, ../scss/style/_general.scss */
+article {
+  margin-bottom: 20px;
+}
+
+/* line 51, ../scss/style/_general.scss */
+p {
+  line-height: 20px;
+  text-align: justify;
+}
+
+/* line 56, ../scss/style/_general.scss */
+.kanan {
+  float: right;
+}
+
+/* line 61, ../scss/style/_general.scss */
+.kiri {
+  float: left;
+}
+
+/* line 1, ../scss/style/_main.scss */
+#main-menu {
+  display: block;
+}
+
+/* line 7, ../scss/style/_main.scss */
+h2.title {
+  padding: 5px 10px;
+  color: #3e9968;
+  border-left: solid 5px #FFcc00;
+  margin-bottom: 15px;
+}
+
+/* line 15, ../scss/style/_main.scss */
+#produk-detail {
+  text-align: center;
+}
+/* line 16, ../scss/style/_main.scss */
+#produk-detail li {
+  display: inline-table;
+  padding: 5px;
+}
+
+/*  BOX PENCARIAN  */
+/* line 25, ../scss/style/_main.scss */
+input[type="search"] {
+  padding-left: 30px;
+  outline: none;
+  border: 0;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+}
+/* line 32, ../scss/style/_main.scss */
+input[type="search"]:focus {
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -moz-box-shadow: 0 0 10px #FFcc00;
+  -webkit-box-shadow: 0 0 10px #FFcc00;
+  box-shadow: 0 0 10px #FFcc00;
+}
+/* line 38, ../scss/style/_main.scss */
+input[type="search"].highlight {
+  border: 1px solid #ffcc33;
+  -moz-box-shadow: 0 0 1px #ffff00;
+  -webkit-box-shadow: 0 0 1px #ffff00;
+  box-shadow: 0 0 1px #ffff00;
+}
+
+/* line 46, ../scss/style/_main.scss */
+#pencarian {
+  margin-top: 11px;
+  position: absolute;
+  top: 0px;
+  right: 15px;
+}
+
+/* line 53, ../scss/style/_main.scss */
+.input-pencarian {
+  background: #ffffff url("../img/search-icon.png") no-repeat 5px center;
+  width: 200px;
+  height: 25px;
+}
+
+/*  AKHIR BOX PENCARIAN  */
+/* line 60, ../scss/style/_main.scss */
+.fixed {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+  -moz-box-shadow: 0 1px 4px #858585;
+  -webkit-box-shadow: 0 1px 4px #858585;
+  box-shadow: 0 1px 4px #858585;
+}
+
+/*  BAGIAN HEADER  */
+/* line 70, ../scss/style/_main.scss */
+#header {
+  color: #ffffff;
+  padding: 25px 0;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQ1YWI3NCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzNlOTk2OCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #45ab74), color-stop(100%, #3e9968));
+  background-image: -moz-linear-gradient(top, #45ab74, #3e9968);
+  background-image: -webkit-linear-gradient(top, #45ab74, #3e9968);
+  background-image: linear-gradient(to bottom, #45ab74, #3e9968);
+  border-bottom: 1px solid #37875c;
+}
+/* line 79, ../scss/style/_main.scss */
+#header img {
+  float: left;
+  width: 10%;
+  margin-right: 15px;
+}
+/* line 85, ../scss/style/_main.scss */
+#header h1 {
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+  font-size: 24px;
+  line-height: 20px;
+}
+/* line 92, ../scss/style/_main.scss */
+#header h1 span {
+  display: block;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+/*  AKHIR HEADER  */
+/* line 102, ../scss/style/_main.scss */
+#main-menu {
+  display: block;
+}
+
+/*  NAVIGASI  */
+/* line 107, ../scss/style/_main.scss */
+nav {
+  display: block;
+  border-bottom: solid 1px #37875c;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQ1YWI3NCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzNlOTk2OCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #45ab74), color-stop(100%, #3e9968));
+  background-image: -moz-linear-gradient(top, #45ab74, #3e9968);
+  background-image: -webkit-linear-gradient(top, #45ab74, #3e9968);
+  background-image: linear-gradient(to bottom, #45ab74, #3e9968);
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+}
+/* line 115, ../scss/style/_main.scss */
+nav #resp-menu {
+  display: none;
+}
+/* line 119, ../scss/style/_main.scss */
+nav a {
+  padding: 15px 20px;
+  display: block;
+  color: #ffffff;
+}
+/* line 125, ../scss/style/_main.scss */
+nav ul {
+  display: block;
+  z-index: 999;
+}
+/* line 134, ../scss/style/_main.scss */
+nav ul li {
+  float: left;
+  position: relative;
+  display: block;
+}
+/* line 140, ../scss/style/_main.scss */
+nav ul li a:hover {
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  background: #ffffff;
+  color: #3e9968;
+}
+/* line 147, ../scss/style/_main.scss */
+nav ul li:hover > ul {
+  display: block;
+}
+/* line 151, ../scss/style/_main.scss */
+nav ul li.active {
+  background: #37875c;
+}
+/* line 156, ../scss/style/_main.scss */
+nav ul li ul {
+  border-top: solid 1px #37875c;
+  white-space: nowrap;
+  position: absolute;
+  display: none;
+  -moz-box-shadow: -3px 3px 10px -2px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: -3px 3px 10px -2px rgba(0, 0, 0, 0.4);
+  box-shadow: -3px 3px 10px -2px rgba(0, 0, 0, 0.4);
+}
+/* line 165, ../scss/style/_main.scss */
+nav ul li ul li {
+  float: none;
+  border-bottom: 1px solid #45ab74;
+}
+/* line 168, ../scss/style/_main.scss */
+nav ul li ul li:last-child {
+  border-bottom: 0;
+}
+/* line 172, ../scss/style/_main.scss */
+nav ul li ul li a {
+  background: #3e9968;
+  padding: 10px 20px 10px 10px;
+}
+/* line 177, ../scss/style/_main.scss */
+nav ul li ul li ul {
+  border: none;
+  white-space: nowrap;
+  position: absolute;
+  left: 100%;
+  top: 0;
+}
+
+/*  AKHIR NAVIGASI  */
+/*  BAGIAN KONTEN BERITA */
+/* line 195, ../scss/style/_main.scss */
+section a {
+  color: #3e9968;
+}
+/* line 198, ../scss/style/_main.scss */
+section a.read-more {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  float: right;
+  font-size: .9em;
+  color: #ffffff;
+  margin-top: 5px;
+  padding: 5px 10px;
+  background: #51b981;
+}
+/* line 207, ../scss/style/_main.scss */
+section a.read-more:hover {
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  background-color: #3e9968;
+}
+/* line 214, ../scss/style/_main.scss */
+section article {
+  display: block;
+  overflow: hidden;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed #d2d2d2;
+  clear: both;
+}
+/* line 221, ../scss/style/_main.scss */
+section article:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+/* line 226, ../scss/style/_main.scss */
+section article .tanggal-post {
+  font-size: 12px;
+}
+/* line 230, ../scss/style/_main.scss */
+section article h3 {
+  color: #3e9968;
+}
+/* line 233, ../scss/style/_main.scss */
+section article h3 a:hover {
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  color: #858585;
+  text-decoration: underline;
+}
+/* line 242, ../scss/style/_main.scss */
+section article p {
+  margin: 10px 0;
+}
+/* line 246, ../scss/style/_main.scss */
+section article img {
+  float: left;
+  display: block;
+  margin: 0px 10px 10px 0;
+}
+
+/*  AKHIR KONTEN BERITA  */
+/* BAGIAN ASIDE */
+/* line 257, ../scss/style/_main.scss */
+.agenda {
+  clear: both;
+  overflow: hidden;
+  display: block;
+  padding: 20px 15px 10px 20px;
+}
+/* line 259, ../scss/style/_main.scss */
+.agenda .item-agenda {
+  padding-bottom: 5px;
+  border-bottom: 1px dashed #e3e3e3;
+  overflow: hidden;
+}
+/* line 264, ../scss/style/_main.scss */
+.agenda .item-agenda:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+/* line 278, ../scss/style/_main.scss */
+.agenda li {
+  margin-bottom: 10px;
+}
+/* line 283, ../scss/style/_main.scss */
+.agenda .kalender {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background: #9cb9df;
+  clear: both;
+  float: left;
+  font-size: 12px;
+  margin: 0 10px 10px 0;
+  margin-bottom: 10px;
+  overflow: hidden;
+  text-align: center;
+  width: 60px;
+  color: #ffffff;
+}
+/* line 295, ../scss/style/_main.scss */
+.agenda .kalender .hari {
+  display: block;
+  background: #2B5284;
+  padding: 2px;
+  margin-bottom: 2px;
+}
+/* line 301, ../scss/style/_main.scss */
+.agenda .kalender .tanggal {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}
+/* line 306, ../scss/style/_main.scss */
+.agenda .kalender .bulan {
+  display: block;
+}
+/* line 311, ../scss/style/_main.scss */
+.agenda .detail-agenda {
+  line-height: 25px;
+  display: block;
+  overflow: hidden;
+}
+/* line 318, ../scss/style/_main.scss */
+.agenda .detail-agenda .acara a {
+  line-height: 20px;
+  color: #3e76be;
+}
+/* line 321, ../scss/style/_main.scss */
+.agenda .detail-agenda .acara a:hover {
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  color: #2B5284;
+  text-decoration: underline;
+}
+
+/* line 331, ../scss/style/_main.scss */
+.box {
+  overflow: hidden;
+  background: #ffffff;
+  margin-bottom: 20px;
+  -moz-box-shadow: 1px 0 15px #c7c7c7;
+  -webkit-box-shadow: 1px 0 15px #c7c7c7;
+  box-shadow: 1px 0 15px #c7c7c7;
+}
+/* line 337, ../scss/style/_main.scss */
+.box .judul-box {
+  background: #3e9968;
+  color: #ffffff;
+  padding: 10px;
+  border-bottom: 4px solid #FFcc00;
+}
+/* line 345, ../scss/style/_main.scss */
+.box .detail-box li {
+  padding: 10px;
+}
+/* line 348, ../scss/style/_main.scss */
+.box .detail-box li:last-child {
+  border-bottom: 0;
+}
+/* line 352, ../scss/style/_main.scss */
+.box .detail-box li:hover {
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  background: #f7f7f7;
+}
+/* line 359, ../scss/style/_main.scss */
+.box .item-box {
+  border-bottom: 1px dashed #d2d2d2;
+}
+/* line 361, ../scss/style/_main.scss */
+.box .item-box a {
+  display: block;
+  color: #858585;
+}
+/* line 364, ../scss/style/_main.scss */
+.box .item-box a:hover {
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  color: #3e9968;
+}
+
+/* AKHIR ASIDE */
+/* BAGIAN KONTEN PRODUK UNGGULAN*/
+/* line 375, ../scss/style/_main.scss */
+#produk {
+  margin: 5px 0 20px 0;
+}
+
+/* AKHIR KONTEN PRODUK UNGGULAN*/
+/*  BAGIAN FOOTER  */
+/* line 385, ../scss/style/_main.scss */
+footer {
+  border-top: solid 6px #FFcc00;
+  color: #ababab;
+}
+/* line 390, ../scss/style/_main.scss */
+footer h3 {
+  color: #FFcc00;
+  border-bottom: 1px solid #858585;
+  padding: 0 0 5px 0px;
+}
+/* line 398, ../scss/style/_main.scss */
+footer .tautan ul {
+  margin-top: 5px;
+  padding-top: 4px;
+}
+/* line 402, ../scss/style/_main.scss */
+footer .tautan ul li {
+  border-bottom: 1px dotted #858585;
+}
+/* line 407, ../scss/style/_main.scss */
+footer .tautan a {
+  padding: 5px 0;
+  color: #ababab;
+}
+/* line 411, ../scss/style/_main.scss */
+footer .tautan a:hover {
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  color: #FFcc00;
+  text-decoration: underline;
+}
+/* line 419, ../scss/style/_main.scss */
+footer #footer-top {
+  background: #505050;
+  padding: 15px 0;
+}
+/* line 420, ../scss/style/_main.scss */
+footer #footer-top p {
+  text-align: left;
+  padding-top: 15px;
+}
+/* line 429, ../scss/style/_main.scss */
+footer #footer-bottom {
+  background: #313131;
+  font-size: .9em;
+  padding: 10px 0;
+}
+/* line 430, ../scss/style/_main.scss */
+footer #footer-bottom p {
+  text-align: center;
+  color: #ffffff;
+}
+
+/* AKHIR FOOTER */
+/* line 1, ../scss/style/_landing.scss */
+#landing {
+  position: relative;
+  height: 100vh;
+  background: url('../img/bg-landing.jpg?1437789703') top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: -2;
+}
+/* line 11, ../scss/style/_landing.scss */
+#landing h1 {
+  color: #2B5284;
+  margin-top: -36px;
+  font-size: 20px;
+  line-height: 25px;
+}
+/* line 17, ../scss/style/_landing.scss */
+#landing h1 span {
+  display: block;
+  color: #909090;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+/* line 28, ../scss/style/_landing.scss */
+#kotak {
+  position: relative;
+  background: #fff;
+  width: 70%;
+  margin: auto;
+}
+/* line 33, ../scss/style/_landing.scss */
+#kotak header {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2YxZjFmMSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #f1f1f1));
+  background-image: -moz-linear-gradient(#ffffff, #f1f1f1);
+  background-image: -webkit-linear-gradient(#ffffff, #f1f1f1);
+  background-image: linear-gradient(#ffffff, #f1f1f1);
+  -moz-box-shadow: 0 -2px 3px #ddd inset;
+  -webkit-box-shadow: 0 -2px 3px #ddd inset;
+  box-shadow: 0 -2px 3px #ddd inset;
+  padding-bottom: 15px;
+}
+/* line 38, ../scss/style/_landing.scss */
+#kotak section {
+  display: block;
+}
+/* line 41, ../scss/style/_landing.scss */
+#kotak footer {
+  color: #444;
+  padding: 15px;
+  display: block;
+  border-top: none !important;
+  background: #eee;
+  -moz-box-shadow: 0 1px 5px #ddd inset;
+  -webkit-box-shadow: 0 1px 5px #ddd inset;
+  box-shadow: 0 1px 5px #ddd inset;
+}
+/* line 50, ../scss/style/_landing.scss */
+#kotak:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  bottom: -10px;
+  left: -10px;
+  background: rgba(255, 255, 255, 0.3);
+  z-index: -1;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* line 64, ../scss/style/_landing.scss */
+.logo {
+  margin: auto;
+  display: block;
+  top: -50px;
+  position: relative;
+  width: 80px;
+  height: 80%;
+}
+
+/* line 73, ../scss/style/_landing.scss */
+.btn {
+  background: #fff;
+  overflow: hidden;
+  padding: 25px 50px 20px 50px;
+  display: inline-block;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  position: relative;
+  top: -40px;
+  margin-bottom: -40px;
+}
+/* line 82, ../scss/style/_landing.scss */
+.btn a {
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  font-weight: bold;
+  color: #444;
+  font-size: 28px;
+  line-height: 30px;
+}
+/* line 88, ../scss/style/_landing.scss */
+.btn a:hover {
+  color: #3e9968;
+}
+/* line 91, ../scss/style/_landing.scss */
+.btn a span {
+  font-weight: normal;
+  color: #aaa;
+  display: block;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+/* line 102, ../scss/style/_landing.scss */
+#awan {
+  position: relative;
+  overflow: hidden;
+  width: 950px;
+  height: 250px;
+}
+
+/* line 105, ../scss/style/_landing.scss */
+.awan-viewport {
+  position: relative;
+  /* relative, absolute, fixed */
+  overflow: hidden;
+}
+
+/* line 109, ../scss/style/_landing.scss */
+.awan-latar {
+  position: absolute;
+  top: 0;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 7, ../scss/style/_responsive.scss */
+  #slider {
+    display: none;
+  }
+
+  /* line 11, ../scss/style/_responsive.scss */
+  section {
+    margin-bottom: 15px !important;
+  }
+  /* line 13, ../scss/style/_responsive.scss */
+  section img {
+    display: none !important;
+  }
+
+  /* line 17, ../scss/style/_responsive.scss */
+  .zeen-4, .zeen-8 {
+    float: left;
+    width: 100%;
+    margin: 0;
+  }
+
+  /* line 24, ../scss/style/_responsive.scss */
+  #footer-top .kontak, #footer-top .tautan, #footer-top .polling {
+    margin-bottom: 20px;
+  }
+
+  /* line 29, ../scss/style/_responsive.scss */
+  #header {
+    text-align: center;
+  }
+  /* line 30, ../scss/style/_responsive.scss */
+  #header .bungkus {
+    padding: 0;
+  }
+  /* line 34, ../scss/style/_responsive.scss */
+  #header h1 {
+    font-size: 24px;
+    line-height: 25px;
+  }
+  /* line 38, ../scss/style/_responsive.scss */
+  #header h1 span {
+    display: block;
+    font-size: 16px;
+    font-weight: 100;
+  }
+
+  /* line 50, ../scss/style/_responsive.scss */
+  nav {
+    display: block;
+    margin-bottom: 10px;
+  }
+  /* line 55, ../scss/style/_responsive.scss */
+  nav a {
+    padding: 15px 20px;
+    display: block;
+    color: #ffffff;
+  }
+  /* line 61, ../scss/style/_responsive.scss */
+  nav #resp-menu {
+    display: block;
+    background: url("../img/nav-icon.png") no-repeat center left;
+    padding: 25px 0;
+  }
+  /* line 70, ../scss/style/_responsive.scss */
+  nav ul#main-menu {
+    display: none;
+  }
+  /* line 73, ../scss/style/_responsive.scss */
+  nav ul li {
+    float: none;
+  }
+  /* line 74, ../scss/style/_responsive.scss */
+  nav ul li a {
+    padding: 8px;
+  }
+  /* line 78, ../scss/style/_responsive.scss */
+  nav ul li > ul {
+    border: none;
+    box-shadow: none;
+    display: block;
+    position: relative;
+  }
+  /* line 84, ../scss/style/_responsive.scss */
+  nav ul li > ul li {
+    border: none;
+  }
+  /* line 86, ../scss/style/_responsive.scss */
+  nav ul li > ul li > a {
+    padding: 8px 8px 8px 25px;
+    background: rgba(255, 0, 255, 0);
+  }
+  /* line 91, ../scss/style/_responsive.scss */
+  nav ul li > ul li ul {
+    position: relative;
+    left: 0;
+  }
+  /* line 93, ../scss/style/_responsive.scss */
+  nav ul li > ul li ul li > a {
+    padding: 8px 8px 8px 40px;
+  }
+
+  /* line 110, ../scss/style/_responsive.scss */
+  #landing header {
+    margin-bottom: 50px;
+  }
+}
