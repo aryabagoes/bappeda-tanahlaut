@@ -1,8 +1,26 @@
 @import '../helper/variable';
 //responsive zeengrid 
-//
 
 @media screen and (max-width: 768px) {
+	.awan-latar{
+		display: none;
+	}
+	.logo{
+		visibility: hidden;
+		width:50px;
+	}
+	#header {
+		.logo{
+			display: block;
+			visibility: visible;
+			width: 70px;
+			float: none;
+			margin: auto;
+		}
+		h1{
+			clear: both;
+		}
+	}
 	#slider {
 		display: none;
 	}
@@ -39,13 +57,8 @@
 				font-size: 16px;
 				font-weight: 100;
 			}
-	
 		}
 	}
-
-	
-
-	
 	nav {
 		// height: auto;
 		display: block;
@@ -104,7 +117,6 @@
 				}
 				float: none;
 			}
-		
 		}	
 	}
 

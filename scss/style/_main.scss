@@ -81,8 +81,13 @@ input[type="search"]{
 		width: 10%;
 		margin-right : 15px;
 	}
-
+	.logo{
+		// float: left;
+		top:0;
+		width: 50px;
+	}
 	h1{
+		padding-top:15px;
 		text-shadow: 0 2px 2px rgba(0,0,0,.5);
 		// color:$biru;
 		// margin-top:-36px;
