@@ -9,6 +9,18 @@
 		visibility: hidden;
 		width:50px;
 	}
+	#header {
+		.logo{
+			display: block;
+			visibility: visible;
+			width: 70px;
+			float: none;
+			margin: auto;
+		}
+		h1{
+			clear: both;
+		}
+	}
 	#slider {
 		display: none;
 	}
