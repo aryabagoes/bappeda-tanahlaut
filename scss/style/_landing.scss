@@ -97,3 +97,15 @@
 	}
 	
 }
+
+#awan {
+   position:relative; overflow:hidden; width:950px; height:250px;
+}
+.awan-viewport {
+    position: relative;     /* relative, absolute, fixed */
+    overflow: hidden;
+}
+.awan-latar {
+    position: absolute;
+    top:0;
+}

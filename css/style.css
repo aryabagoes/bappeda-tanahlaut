@@ -987,6 +987,27 @@ footer #footer-bottom p {
   line-height: 15px;
 }
 
+/* line 101, ../scss/style/_landing.scss */
+#awan {
+  position: relative;
+  overflow: hidden;
+  width: 950px;
+  height: 250px;
+}
+
+/* line 104, ../scss/style/_landing.scss */
+.awan-viewport {
+  position: relative;
+  /* relative, absolute, fixed */
+  overflow: hidden;
+}
+
+/* line 108, ../scss/style/_landing.scss */
+.awan-latar {
+  position: absolute;
+  top: 0;
+}
+
 @media only screen and (max-width: 700px) {
   /* line 4, ../scss/style/_responsive.scss */
   #slider {
