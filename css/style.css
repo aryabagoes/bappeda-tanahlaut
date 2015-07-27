@@ -270,7 +270,7 @@ img {
   position: relative;
   *zoom: 1;
 }
-/* line 38, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/utilities/general/_clearfix.scss */
 .bungkus:after {
   content: "";
   display: table;
@@ -285,7 +285,7 @@ img {
   max-width: 978px;
   *zoom: 1;
 }
-/* line 38, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/utilities/general/_clearfix.scss */
 .baris:after {
   content: "";
   display: table;
@@ -904,7 +904,7 @@ footer #footer-bottom p {
 #landing {
   position: relative;
   height: 100vh;
-  background: url('../img/bg-landing.jpg?1437789703') top;
+  background: url('../img/bg-landing.jpg?1437901126') top;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -923,7 +923,7 @@ footer #footer-bottom p {
 /* line 17, ../scss/style/_landing.scss */
 #landing h1 span {
   display: block;
-  color: #909090;
+  color: #919191;
   font-size: 12px;
   font-weight: 100;
 }
@@ -1133,45 +1133,41 @@ footer #footer-bottom p {
     background: url("../img/nav-icon.png") no-repeat center left;
     padding: 25px 0;
   }
-  /* line 82, ../scss/style/_responsive.scss */
-  nav ul#main-menu {
-    display: none;
-  }
-  /* line 85, ../scss/style/_responsive.scss */
+  /* line 88, ../scss/style/_responsive.scss */
   nav ul li {
     float: none;
   }
-  /* line 86, ../scss/style/_responsive.scss */
+  /* line 89, ../scss/style/_responsive.scss */
   nav ul li a {
     padding: 8px;
   }
-  /* line 90, ../scss/style/_responsive.scss */
+  /* line 93, ../scss/style/_responsive.scss */
   nav ul li > ul {
     border: none;
     box-shadow: none;
     display: block;
     position: relative;
   }
-  /* line 96, ../scss/style/_responsive.scss */
+  /* line 99, ../scss/style/_responsive.scss */
   nav ul li > ul li {
     border: none;
   }
-  /* line 98, ../scss/style/_responsive.scss */
+  /* line 101, ../scss/style/_responsive.scss */
   nav ul li > ul li > a {
     padding: 8px 8px 8px 25px;
     background: rgba(255, 0, 255, 0);
   }
-  /* line 103, ../scss/style/_responsive.scss */
+  /* line 106, ../scss/style/_responsive.scss */
   nav ul li > ul li ul {
     position: relative;
     left: 0;
   }
-  /* line 105, ../scss/style/_responsive.scss */
+  /* line 108, ../scss/style/_responsive.scss */
   nav ul li > ul li ul li > a {
     padding: 8px 8px 8px 40px;
   }
 
-  /* line 121, ../scss/style/_responsive.scss */
+  /* line 124, ../scss/style/_responsive.scss */
   #landing header {
     margin-bottom: 50px;
   }

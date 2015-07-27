@@ -25,6 +25,11 @@ $(document).ready(function(){
         }
     })
 
+    // $('#main-menu li a').on('click', function(){
+    //     $("#main-menu").hide();
+    //     // $("#menu-icon").removeClass("active");
+    // });
+
 });
 
 // SLIDER
