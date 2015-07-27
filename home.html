@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/home.css">
+	<!-- <link rel="stylesheet" href="css/home.css"> -->
 	<link href="css/flexslider.css" rel="stylesheet" type="text/css" />
 	<link href="css/fontawesome.css" rel="stylesheet" type="text/css" />	
     <script src="js/jquery1.8.3.js"></script>      
@@ -21,12 +21,9 @@
 		<div class="baris">
 			<div class="bungkus">
 				<header>
-
-					<div class="kiri">
-						<h2>PEMERINTAH DAERAH KABUPATEN TANAH LAUT </h2>
-						<h3>BADAN PERENCANAAN PEMBANGUNAN DAERAH</h3>
-					</div>
-
+					<h1>
+						PEMERINTAH DAERAH KABUPATEN TANAH LAUT <span>Badan Perencanaan Pembangunan Daerah</span>
+					</h1>
 
 				</header>				
 			</div>
@@ -38,8 +35,9 @@
 		<div class="baris">
 			<div class="bungkus">		
 				<!-- <div class="zeen-9"> -->
-					<!-- <a href="#" id="pull" class = "kiri">Menu</a> -->
-					<ul class="clearfix">
+					<a href="#" id="resp-menu"></a>
+					
+					<ul id="main-menu">
 						<li class="active"><a href="#">Beranda</a></li>
 						
 						<li><a href="#">Profil</a>
@@ -62,16 +60,19 @@
 						<li><a href="#">Galeri</a></li>
 						<li><a href="#">Kontak</a></li>
 
-						<div id="pencarian"class="kanan">
-							<form>			
-								<input class="input-pencarian" type="search" placeholder ="Pencarian">					
-							</form>							
-						</div>	
+						
 					</ul>	
 				<!-- </div>	 -->
+	
+				<div id="pencarian" class="kanan">
+					<form>			
+						<input class="input-pencarian" type="search" placeholder ="Pencarian">					
+					</form>							
+				</div>			
 			</div>				
 
 		</div>
+
 	</nav>
 
 
@@ -263,9 +264,18 @@
 	</footer>
 	<!-- AKHIR BAGIAN FOOTER -->
 </body>
-
+</html>
 
 <script type="text/javascript">
+
+$(document).ready(function(){
+  $("#resp-menu").click(function(){ 
+    $("#main-menu").slideToggle(700);
+  });
+});
+
+
+
 // SLIDER
     $(window).load(function(){
         $('.flexslider').flexslider({
@@ -277,21 +287,34 @@
 
 // NAVIGASI FIX 
 	$(document).ready(function(){
+        
 	    var stickyNavTop = $('nav').offset().top;
 	    var stickyNav = function()
+
 	    	{
 	        	var scrollTop = $(window).scrollTop();
+
 		        if (scrollTop > stickyNavTop) {
 		            $('nav').addClass('fixed');
 		        } 
 		        else {		           
 		            $('nav').removeClass('fixed');
-		        	}
+		        }	         				
 	    	};
+
 	    // stickyNav();
 	    $(window).scroll(function() {
 	        stickyNav();
-	    });
+	    });     
 	});
-</script>
 
+	$(window).resize(function() {
+	var descTop = $(window).width()
+		if (descTop > 768){ 
+		// window.location.reload();
+		document.getElementById("main-menu").style.display = "block";
+		}	
+	});
+
+
+</script>

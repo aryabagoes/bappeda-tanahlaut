@@ -6,6 +6,8 @@
 	<link rel="stylesheet" href="css/style.css">		
 	<link href="css/flexslider.css" rel="stylesheet" type="text/css" />
 	<link href="css/fontawesome.css" rel="stylesheet" type="text/css" />	
+	<script src="js/jquery1.8.3.js"></script>      
+    <script src="js/jquery.flexslider.js"></script> 
 	<title>Bappeda Tanah Laut</title>
 </head>
 
@@ -19,10 +21,21 @@
 		</header>
 		<section>
 			<div id="slider">
-				<img src="./img/slider/1.jpg" alt="">
+				<div class="flexslider">
+					<div class="slides">
+						<ul class="slides">
+	                		<li><img src="img/slider/1.jpg"/></li>	
+	                		<li><img src="img/slider/2.jpg"/></li>	
+	                		
+						</ul>
+						<!-- <img src="./img/slider/1.jpg" alt=""> -->
+						<!-- <img src="./img/slider/2.jpg" alt=""> -->
+					</div>
+											
+				</div>
 			</div>
 			<div class="btn">
-				<a href="#">
+				<a href="home.html">
 					ENTER <span>Masuk ke website</span>
 				</a>
 			</div>
@@ -35,3 +48,13 @@
 
 
 </html>
+<script type="text/javascript">
+// SLIDER
+    $(window).load(function(){
+        $('.flexslider').flexslider({
+            animation:"fade",
+            slideshowSpeed: 3500,
+            ControlsContainer:".flex-container"
+        });
+    });
+</script>

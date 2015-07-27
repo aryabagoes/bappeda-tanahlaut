@@ -1,9 +1,11 @@
 @import '../helper/variable';
 //responsive zeengrid 
-@media only screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
+	
 	#slider {
 		display: none;
 	}
+
 	section {
 		margin-bottom: 15px !important;
 		img {
@@ -21,5 +23,104 @@
 			margin-bottom: 20px;
 		}
 	}
+	
+	#header {
+		.bungkus {
+			padding: 0;
+		}
+		text-align: center;
+		h1{
+		
+			font-size: 24px;
+			line-height: 25px;
+			span{
+				display: block;
+				font-size: 16px;
+				font-weight: 100;
+			}
+	
+		}
+	}
+
+
+
+	nav {
+
+		// height: auto;
+		display: block;
+		margin-bottom: 10px;
+
+		a {		
+			padding: 15px 20px;
+			display: block;
+			color: $putih;			
+		}
+
+		#resp-menu {
+			display: block;
+			background:url('../img/nav-icon.png') no-repeat center left;
+			// float: left;
+		    padding : 25px 0;
+			// padding : 12px 0 15px 0;
+		}	
+
+		ul {		
+			li {
+				a {
+					padding: 8px;
+				}	
+
+				>ul {
+					border : none;
+					box-shadow : none;
+					display: block;
+					position: relative;
+				
+					li {
+						border: none;
+						>a {
+							padding : 8px 8px 8px 25px;
+							background: rgba(255,0,255,0);
+						}
+
+						ul {
+							li {
+								>a {
+									padding : 8px 8px 8px 40px;
+								}	
+							}
+							
+						position :relative;
+						left: 0;
+						}
+					}
+				}
+			
+				float: none;
+				
+
+
+			}
+
+			&#main-menu {
+				display: none;		
+				
+			}
+			
+
+
+						
+		}	
+		
+		
+	}
+
+	#landing {
+		header {
+			margin-bottom: 50px;
+		}
+	}
+
+
 }
 
