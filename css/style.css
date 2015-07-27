@@ -1085,63 +1085,62 @@ footer #footer-bottom p {
     font-weight: 100;
   }
 
-  /* line 47, ../scss/style/_responsive.scss */
-  #main-menu {
-    display: none;
-  }
-
-  /* line 52, ../scss/style/_responsive.scss */
+  /* line 50, ../scss/style/_responsive.scss */
   nav {
     display: block;
     margin-bottom: 10px;
   }
-  /* line 57, ../scss/style/_responsive.scss */
+  /* line 55, ../scss/style/_responsive.scss */
   nav a {
     padding: 15px 20px;
     display: block;
     color: #ffffff;
   }
-  /* line 63, ../scss/style/_responsive.scss */
+  /* line 61, ../scss/style/_responsive.scss */
   nav #resp-menu {
     display: block;
     background: url("../img/nav-icon.png") no-repeat center left;
     padding: 25px 0;
   }
-  /* line 76, ../scss/style/_responsive.scss */
+  /* line 69, ../scss/style/_responsive.scss */
+  nav ul#main-menu {
+    display: none;
+  }
+  /* line 72, ../scss/style/_responsive.scss */
   nav ul li {
     float: none;
   }
-  /* line 77, ../scss/style/_responsive.scss */
+  /* line 73, ../scss/style/_responsive.scss */
   nav ul li a {
     padding: 8px;
   }
-  /* line 81, ../scss/style/_responsive.scss */
+  /* line 77, ../scss/style/_responsive.scss */
   nav ul li > ul {
     border: none;
     box-shadow: none;
     display: block;
     position: relative;
   }
-  /* line 87, ../scss/style/_responsive.scss */
+  /* line 83, ../scss/style/_responsive.scss */
   nav ul li > ul li {
     border: none;
   }
-  /* line 89, ../scss/style/_responsive.scss */
+  /* line 85, ../scss/style/_responsive.scss */
   nav ul li > ul li > a {
     padding: 8px 8px 8px 25px;
     background: rgba(255, 0, 255, 0);
   }
-  /* line 94, ../scss/style/_responsive.scss */
+  /* line 90, ../scss/style/_responsive.scss */
   nav ul li > ul li ul {
     position: relative;
     left: 0;
   }
-  /* line 96, ../scss/style/_responsive.scss */
+  /* line 92, ../scss/style/_responsive.scss */
   nav ul li > ul li ul li > a {
     padding: 8px 8px 8px 40px;
   }
 
-  /* line 113, ../scss/style/_responsive.scss */
+  /* line 109, ../scss/style/_responsive.scss */
   #landing header {
     margin-bottom: 50px;
   }
