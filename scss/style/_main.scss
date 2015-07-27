@@ -99,7 +99,9 @@ input[type="search"]{
 	
 }
 /*  AKHIR HEADER  */ 
-
+#main-menu {
+	display: block;
+}
 
 /*  NAVIGASI  */
 nav {
@@ -122,9 +124,9 @@ nav {
 	
 	ul {
 
-		&#main-menu {
-			display: block;
-		}
+		// &#main-menu {
+		// 	display: block;
+		// }
 	
 		
 		display: block;

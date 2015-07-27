@@ -19,7 +19,7 @@ $(document).ready(function(){
     $(window).resize(function(){
         if(lebar < 768){
             mainmenu.hide();
-        }
+    }
         if(lebar > 768){
             mainmenu.show();
         }
