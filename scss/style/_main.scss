@@ -1,3 +1,8 @@
+#main-menu {
+	display: block;
+}
+	
+
 h2 {
 	&.title{
 		padding : 5px 10px;	
@@ -26,18 +31,25 @@ input[type="search"]{
 
 	&:focus {			
 		@include transition-duration (.5s);
-		box-shadow: 0 0 5px $kuning;  		
+		// box-shadow: 0 0 5px $kuning;  		
+		@include box-shadow(0 0 10px $kuning);	
 	}	
 
 	&.highlight {
     border: 1px solid #ffcc33;
-    box-shadow: 0 0 1px #ffff00;	
+    // box-shadow: 0 0 1px #ffff00;	
+	@include box-shadow(0 0 1px #ffff00);	
+
 	}
 }	
 
 #pencarian {
 	margin-top : 11px;
+	position: absolute;
+	top: 0px;
+	right: 15px;
 }
+
 .input-pencarian {	
 	background: $putih url('../img/search-icon.png') no-repeat 5px center;	
 	width: 200px;
@@ -59,7 +71,7 @@ input[type="search"]{
 	// background : lighten($hijau,10%);
 	// background : $hijau;
 	color : $putih;
-	padding : 25px;
+	padding : 25px 0;
 
 	@include background-image(linear-gradient(to bottom, lighten($hijau,5%),  $hijau));
 	border-bottom : 1px solid darken($hijau,5%);	
@@ -69,6 +81,21 @@ input[type="search"]{
 		width: 10%;
 		margin-right : 15px;
 	}
+
+	h1{
+		text-shadow: 0 2px 2px rgba(0,0,0,.5);
+		// color:$biru;
+		// margin-top:-36px;
+		// margin-bottom: 15px;
+		font-size: 24px;
+		line-height: 20px;
+		span{
+			display: block;
+			// color:darken(#aaa,10%);
+			font-size: 14px;
+			font-weight: 100;
+		}
+	}
 	
 }
 /*  AKHIR HEADER  */ 
@@ -76,27 +103,31 @@ input[type="search"]{
 
 /*  NAVIGASI  */
 nav {
+	display : block;
 	border-bottom : solid 1px darken($hijau,5%);
 	@include background-image(linear-gradient(to bottom, lighten($hijau,5%), $hijau));
 	text-shadow: 0 2px 2px rgba(0,0,0,.3);
 	color :$putih;
 	
+
+	#resp-menu {
+		display: none;
+	}	
+
 	a {		
-		&#pull {
-			display: block;
-		}
 		padding: 15px 20px;
 		display: block;
 		color: $putih;
 	}
-
-	ul:after {
-		content:" ";
-		display: block;
-		clear:both;
-	}
 	
-	ul {	
+	ul {
+
+		&#main-menu {
+			display: block;
+		}
+	
+		
+		display: block;
 		z-index: 999;
 		li {
 			float: left;
@@ -115,13 +146,19 @@ nav {
 				display: block;
 			}
 
+			&.active {
+				background : darken($hijau,5%);
+			}
+
+
 			ul {
 				border-top : solid 1px darken($hijau,5%);
 				white-space: nowrap;					
 				position:absolute;
-				top: 100%;
+				// top: 100%;
 				display: none;
-				box-shadow: -3px 3px 10px -2px rgba(0,0,0,.4);			
+				// box-shadow: -3px 3px 10px -2px rgba(0,0,0,.4);		
+				@include box-shadow(-3px 3px 10px -2px rgba(0,0,0,.4));	
 				
 				li {
 					float:none;
