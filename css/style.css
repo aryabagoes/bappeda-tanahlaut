@@ -1039,46 +1039,46 @@ footer #footer-bottom p {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 5, ../scss/style/_responsive.scss */
+  /* line 7, ../scss/style/_responsive.scss */
   #slider {
     display: none;
   }
 
-  /* line 9, ../scss/style/_responsive.scss */
+  /* line 11, ../scss/style/_responsive.scss */
   section {
     margin-bottom: 15px !important;
   }
-  /* line 11, ../scss/style/_responsive.scss */
+  /* line 13, ../scss/style/_responsive.scss */
   section img {
     display: none !important;
   }
 
-  /* line 15, ../scss/style/_responsive.scss */
+  /* line 17, ../scss/style/_responsive.scss */
   .zeen-4, .zeen-8 {
     float: left;
     width: 100%;
     margin: 0;
   }
 
-  /* line 22, ../scss/style/_responsive.scss */
+  /* line 24, ../scss/style/_responsive.scss */
   #footer-top .kontak, #footer-top .tautan, #footer-top .polling {
     margin-bottom: 20px;
   }
 
-  /* line 27, ../scss/style/_responsive.scss */
+  /* line 29, ../scss/style/_responsive.scss */
   #header {
     text-align: center;
   }
-  /* line 28, ../scss/style/_responsive.scss */
+  /* line 30, ../scss/style/_responsive.scss */
   #header .bungkus {
     padding: 0;
   }
-  /* line 32, ../scss/style/_responsive.scss */
+  /* line 34, ../scss/style/_responsive.scss */
   #header h1 {
     font-size: 24px;
     line-height: 25px;
   }
-  /* line 36, ../scss/style/_responsive.scss */
+  /* line 38, ../scss/style/_responsive.scss */
   #header h1 span {
     display: block;
     font-size: 16px;
@@ -1086,61 +1086,62 @@ footer #footer-bottom p {
   }
 
   /* line 47, ../scss/style/_responsive.scss */
+  #main-menu {
+    display: none;
+  }
+
+  /* line 52, ../scss/style/_responsive.scss */
   nav {
     display: block;
     margin-bottom: 10px;
   }
-  /* line 53, ../scss/style/_responsive.scss */
+  /* line 57, ../scss/style/_responsive.scss */
   nav a {
     padding: 15px 20px;
     display: block;
     color: #ffffff;
   }
-  /* line 59, ../scss/style/_responsive.scss */
+  /* line 63, ../scss/style/_responsive.scss */
   nav #resp-menu {
     display: block;
     background: url("../img/nav-icon.png") no-repeat center left;
     padding: 25px 0;
   }
-  /* line 68, ../scss/style/_responsive.scss */
+  /* line 76, ../scss/style/_responsive.scss */
   nav ul li {
     float: none;
   }
-  /* line 69, ../scss/style/_responsive.scss */
+  /* line 77, ../scss/style/_responsive.scss */
   nav ul li a {
     padding: 8px;
   }
-  /* line 73, ../scss/style/_responsive.scss */
+  /* line 81, ../scss/style/_responsive.scss */
   nav ul li > ul {
     border: none;
     box-shadow: none;
     display: block;
     position: relative;
   }
-  /* line 79, ../scss/style/_responsive.scss */
+  /* line 87, ../scss/style/_responsive.scss */
   nav ul li > ul li {
     border: none;
   }
-  /* line 81, ../scss/style/_responsive.scss */
+  /* line 89, ../scss/style/_responsive.scss */
   nav ul li > ul li > a {
     padding: 8px 8px 8px 25px;
     background: rgba(255, 0, 255, 0);
   }
-  /* line 86, ../scss/style/_responsive.scss */
+  /* line 94, ../scss/style/_responsive.scss */
   nav ul li > ul li ul {
     position: relative;
     left: 0;
   }
-  /* line 88, ../scss/style/_responsive.scss */
+  /* line 96, ../scss/style/_responsive.scss */
   nav ul li > ul li ul li > a {
     padding: 8px 8px 8px 40px;
   }
-  /* line 105, ../scss/style/_responsive.scss */
-  nav ul#main-menu {
-    display: none;
-  }
 
-  /* line 119, ../scss/style/_responsive.scss */
+  /* line 113, ../scss/style/_responsive.scss */
   #landing header {
     margin-bottom: 50px;
   }
