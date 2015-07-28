@@ -83,7 +83,12 @@ input[type="search"]{
 	@include box-shadow(0 1px 4px $text-gray);
 }
 
-
+#headline {
+	background : $biru;
+	padding: 5px 20px;
+	margin-bottom : 20px;
+	color : $putih;
+}
 /*  BAGIAN HEADER  */
 #header {	
 	// background : lighten($hijau,10%);
