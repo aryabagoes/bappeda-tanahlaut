@@ -40,8 +40,37 @@ h2 {
 
 /*  BOX PENCARIAN  */
 
-input[type="search"]{
-	padding-left:30px;
+// input[type="text"]{
+// 	width: 200px;
+//     height: 25px;
+// 	outline: none;
+// 	border :0;		
+//     border: 1px solid #DDDDDD;
+// 	border-radius:3px;
+
+// 	&:focus {			
+// 		@include transition-duration (.5s);
+// 		// box-shadow: 0 0 5px $kuning;  		
+// 		@include box-shadow(0 0 10px $kuning);	
+// 	}	
+
+// 	&.highlight {
+//     border: 1px solid #ffcc33;
+//     // box-shadow: 0 0 1px #ffff00;	
+// 	@include box-shadow(0 0 1px #ffff00);	
+// 	}
+// }	
+
+#pencarian {
+	margin-top : 11px;
+	position: absolute;
+	top: 0px;
+	right: 15px;
+}
+
+.text-input-cari {	
+	width: 200px;
+    height: 25px;
 	outline: none;
 	border :0;		
     border: 1px solid #DDDDDD;
@@ -58,19 +87,15 @@ input[type="search"]{
     // box-shadow: 0 0 1px #ffff00;	
 	@include box-shadow(0 0 1px #ffff00);	
 	}
-}	
+	padding-left:30px;
+	background: $putih url('../img/search-icon.png') no-repeat 5px center;	
 
-#pencarian {
-	margin-top : 11px;
-	position: absolute;
-	top: 0px;
-	right: 15px;
 }
 
-.input-pencarian {	
-	background: $putih url('../img/search-icon.png') no-repeat 5px center;	
-	width: 200px;
-    height: 25px;
+.text-input {	
+	padding-left:10px;
+	// background: $putih url('../img/search-icon.png') no-repeat 5px center;	
+
 }
 /*  AKHIR BOX PENCARIAN  */
 
