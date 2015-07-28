@@ -14,7 +14,7 @@
 	position: absolute;
 	left: 0px;
 	right: 0px;
-	top: 0;
+	bottom: 0;
 	height: auto;
 	background: rgba(43, 82, 132, 0.6);
 	z-index: 1;
@@ -57,7 +57,6 @@ input[type="search"]{
     border: 1px solid #ffcc33;
     // box-shadow: 0 0 1px #ffff00;	
 	@include box-shadow(0 0 1px #ffff00);	
-
 	}
 }	
 
