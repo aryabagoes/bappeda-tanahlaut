@@ -819,22 +819,28 @@ section article img {
   -webkit-box-shadow: 1px 0 15px #c7c7c7;
   box-shadow: 1px 0 15px #c7c7c7;
 }
-/* line 364, ../scss/style/_main.scss */
+/* line 359, ../scss/style/_main.scss */
+.box img {
+  position: absolute;
+  top: 4px;
+  left: 10px;
+}
+/* line 369, ../scss/style/_main.scss */
 .box .judul-box {
   background: #3e9968;
   color: #ffffff;
-  padding: 10px;
+  padding: 10px 50px 10px;
   border-bottom: 4px solid #FFcc00;
 }
-/* line 372, ../scss/style/_main.scss */
+/* line 377, ../scss/style/_main.scss */
 .box .detail-box li {
   padding: 10px;
 }
-/* line 375, ../scss/style/_main.scss */
+/* line 380, ../scss/style/_main.scss */
 .box .detail-box li:last-child {
   border-bottom: 0;
 }
-/* line 379, ../scss/style/_main.scss */
+/* line 384, ../scss/style/_main.scss */
 .box .detail-box li:hover {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
@@ -842,16 +848,16 @@ section article img {
   transition-duration: 0.5s;
   background: #f7f7f7;
 }
-/* line 386, ../scss/style/_main.scss */
+/* line 391, ../scss/style/_main.scss */
 .box .item-box {
   border-bottom: 1px dashed #d2d2d2;
 }
-/* line 388, ../scss/style/_main.scss */
+/* line 393, ../scss/style/_main.scss */
 .box .item-box a {
   display: block;
   color: #858585;
 }
-/* line 391, ../scss/style/_main.scss */
+/* line 396, ../scss/style/_main.scss */
 .box .item-box a:hover {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
@@ -862,39 +868,39 @@ section article img {
 
 /* AKHIR ASIDE */
 /* BAGIAN KONTEN PRODUK UNGGULAN*/
-/* line 402, ../scss/style/_main.scss */
+/* line 407, ../scss/style/_main.scss */
 #produk {
   margin: 5px 0 20px 0;
 }
 
 /* AKHIR KONTEN PRODUK UNGGULAN*/
 /*  BAGIAN FOOTER  */
-/* line 412, ../scss/style/_main.scss */
+/* line 417, ../scss/style/_main.scss */
 footer {
   border-top: solid 6px #FFcc00;
   color: #ababab;
 }
-/* line 417, ../scss/style/_main.scss */
+/* line 422, ../scss/style/_main.scss */
 footer h3 {
   color: #FFcc00;
   border-bottom: 1px solid #858585;
   padding: 0 0 5px 0px;
 }
-/* line 425, ../scss/style/_main.scss */
+/* line 430, ../scss/style/_main.scss */
 footer .tautan ul {
   margin-top: 5px;
   padding-top: 4px;
 }
-/* line 429, ../scss/style/_main.scss */
+/* line 434, ../scss/style/_main.scss */
 footer .tautan ul li {
   border-bottom: 1px dotted #858585;
 }
-/* line 434, ../scss/style/_main.scss */
+/* line 439, ../scss/style/_main.scss */
 footer .tautan a {
   padding: 5px 0;
   color: #ababab;
 }
-/* line 438, ../scss/style/_main.scss */
+/* line 443, ../scss/style/_main.scss */
 footer .tautan a:hover {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
@@ -903,23 +909,23 @@ footer .tautan a:hover {
   color: #FFcc00;
   text-decoration: underline;
 }
-/* line 446, ../scss/style/_main.scss */
+/* line 451, ../scss/style/_main.scss */
 footer #footer-top {
   background: #505050;
   padding: 15px 0;
 }
-/* line 447, ../scss/style/_main.scss */
+/* line 452, ../scss/style/_main.scss */
 footer #footer-top p {
   text-align: left;
   padding-top: 15px;
 }
-/* line 456, ../scss/style/_main.scss */
+/* line 461, ../scss/style/_main.scss */
 footer #footer-bottom {
   background: #313131;
   font-size: .9em;
   padding: 10px 0;
 }
-/* line 457, ../scss/style/_main.scss */
+/* line 462, ../scss/style/_main.scss */
 footer #footer-bottom p {
   text-align: center;
   color: #ffffff;

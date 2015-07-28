@@ -356,6 +356,11 @@ section {
 }
 
 .box {
+	img {
+		position : absolute;
+		top: 4px;
+		left: 10px;
+	}
 	overflow : hidden;
 	background : #ffffff;	
 	margin-bottom :20px;
@@ -364,7 +369,7 @@ section {
 	.judul-box {		
 		background : $hijau;
 		color: #ffffff;
-		padding : 10px;
+        padding: 10px 50px 10px;
 		border-bottom : 4px solid $kuning;
 	}
 
