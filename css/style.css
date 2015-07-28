@@ -821,26 +821,27 @@ section article img {
 }
 /* line 359, ../scss/style/_main.scss */
 .box img {
-  position: absolute;
-  top: 4px;
+  position: relative;
+  top: 8px;
   left: 10px;
+  float: left;
 }
-/* line 369, ../scss/style/_main.scss */
+/* line 370, ../scss/style/_main.scss */
 .box .judul-box {
   background: #3e9968;
   color: #ffffff;
-  padding: 10px 50px 10px;
+  padding: 15px 50px 15px;
   border-bottom: 4px solid #FFcc00;
 }
-/* line 377, ../scss/style/_main.scss */
+/* line 378, ../scss/style/_main.scss */
 .box .detail-box li {
   padding: 10px;
 }
-/* line 380, ../scss/style/_main.scss */
+/* line 381, ../scss/style/_main.scss */
 .box .detail-box li:last-child {
   border-bottom: 0;
 }
-/* line 384, ../scss/style/_main.scss */
+/* line 385, ../scss/style/_main.scss */
 .box .detail-box li:hover {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
@@ -848,16 +849,16 @@ section article img {
   transition-duration: 0.5s;
   background: #f7f7f7;
 }
-/* line 391, ../scss/style/_main.scss */
+/* line 392, ../scss/style/_main.scss */
 .box .item-box {
   border-bottom: 1px dashed #d2d2d2;
 }
-/* line 393, ../scss/style/_main.scss */
+/* line 394, ../scss/style/_main.scss */
 .box .item-box a {
   display: block;
   color: #858585;
 }
-/* line 396, ../scss/style/_main.scss */
+/* line 397, ../scss/style/_main.scss */
 .box .item-box a:hover {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
@@ -868,39 +869,39 @@ section article img {
 
 /* AKHIR ASIDE */
 /* BAGIAN KONTEN PRODUK UNGGULAN*/
-/* line 407, ../scss/style/_main.scss */
+/* line 408, ../scss/style/_main.scss */
 #produk {
   margin: 5px 0 20px 0;
 }
 
 /* AKHIR KONTEN PRODUK UNGGULAN*/
 /*  BAGIAN FOOTER  */
-/* line 417, ../scss/style/_main.scss */
+/* line 418, ../scss/style/_main.scss */
 footer {
   border-top: solid 6px #FFcc00;
   color: #ababab;
 }
-/* line 422, ../scss/style/_main.scss */
+/* line 423, ../scss/style/_main.scss */
 footer h3 {
   color: #FFcc00;
   border-bottom: 1px solid #858585;
   padding: 0 0 5px 0px;
 }
-/* line 430, ../scss/style/_main.scss */
+/* line 431, ../scss/style/_main.scss */
 footer .tautan ul {
   margin-top: 5px;
   padding-top: 4px;
 }
-/* line 434, ../scss/style/_main.scss */
+/* line 435, ../scss/style/_main.scss */
 footer .tautan ul li {
   border-bottom: 1px dotted #858585;
 }
-/* line 439, ../scss/style/_main.scss */
+/* line 440, ../scss/style/_main.scss */
 footer .tautan a {
   padding: 5px 0;
   color: #ababab;
 }
-/* line 443, ../scss/style/_main.scss */
+/* line 444, ../scss/style/_main.scss */
 footer .tautan a:hover {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
@@ -909,23 +910,23 @@ footer .tautan a:hover {
   color: #FFcc00;
   text-decoration: underline;
 }
-/* line 451, ../scss/style/_main.scss */
+/* line 452, ../scss/style/_main.scss */
 footer #footer-top {
   background: #505050;
   padding: 15px 0;
 }
-/* line 452, ../scss/style/_main.scss */
+/* line 453, ../scss/style/_main.scss */
 footer #footer-top p {
   text-align: left;
   padding-top: 15px;
 }
-/* line 461, ../scss/style/_main.scss */
+/* line 462, ../scss/style/_main.scss */
 footer #footer-bottom {
   background: #313131;
   font-size: .9em;
   padding: 10px 0;
 }
-/* line 462, ../scss/style/_main.scss */
+/* line 463, ../scss/style/_main.scss */
 footer #footer-bottom p {
   text-align: center;
   color: #ffffff;
