@@ -1,7 +1,25 @@
 #main-menu {
 	display: block;
 }
-	
+
+
+.slide-title {
+
+	h2 {
+		margin-bottom: 10px;
+		display: block;
+		// width: 30%;
+	}
+	padding : 10px 15px;		
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0;
+	height: auto;
+	background: rgba(43, 82, 132, 0.6);
+	z-index: 1;
+	color: $putih;
+}
 
 h2 {
 	&.title{
