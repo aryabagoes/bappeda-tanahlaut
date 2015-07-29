@@ -2,6 +2,15 @@
 	display: block;
 }
 
+#galeri {
+	li {
+		display : inline-table;
+		margin-right: 2px;
+		
+	}
+	text-align : left;
+}
+
 
 .slide-title {
 
@@ -121,7 +130,7 @@ input[type=button] {
 }
 
 .text-input {	
-	padding-left:10px;
+padding-left:10px;
 	// background: $putih url('../img/search-icon.png') no-repeat 5px center;	
 
 }
