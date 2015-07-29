@@ -2,7 +2,10 @@
 //responsive zeengrid 
 
 @media screen and (max-width: 768px) {
-
+	#kotak{
+		// background: red;
+		width: 70%;
+	}
 	#headline {
 		margin : 0;
 		margin-bottom: 15px;
