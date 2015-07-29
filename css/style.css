@@ -270,7 +270,7 @@ img {
   position: relative;
   *zoom: 1;
 }
-/* line 38, ../../../../.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scss */
 .bungkus:after {
   content: "";
   display: table;
@@ -285,7 +285,7 @@ img {
   max-width: 978px;
   *zoom: 1;
 }
-/* line 38, ../../../../.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scss */
 .baris:after {
   content: "";
   display: table;
@@ -1002,7 +1002,7 @@ footer #footer-bottom p {
 #landing {
   position: relative;
   height: 100vh;
-  background: url('../img/bg-landing.jpg?1437901126') top;
+  background: url('../img/bg-landing.jpg?1437789703') top;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -1021,7 +1021,7 @@ footer #footer-bottom p {
 /* line 18, ../scss/style/_landing.scss */
 #landing h1 span {
   display: block;
-  color: #919191;
+  color: #909090;
   font-size: 12px;
   font-weight: 100;
 }
@@ -1031,7 +1031,7 @@ footer #footer-bottom p {
   margin-top: 100px;
   position: relative;
   background: #fff;
-  width: 70%;
+  width: 50%;
   margin: auto;
 }
 /* line 34, ../scss/style/_landing.scss */
