@@ -479,27 +479,17 @@ h2.title {
 }
 
 /*  BOX PENCARIAN  */
-/* line 64, ../scss/style/_main.scss */
-#pencarian {
-  margin-top: 11px;
-  position: absolute;
-  top: 0px;
-  right: 15px;
-}
-
-/* line 71, ../scss/style/_main.scss */
-.text-input-cari {
-  width: 200px;
-  height: 25px;
+/* line 43, ../scss/style/_main.scss */
+input[type="text"], textarea {
+  color: #858585;
+  padding-left: 10px;
   outline: none;
   border: 0;
   border: 1px solid #DDDDDD;
   border-radius: 3px;
-  padding-left: 30px;
-  background: #ffffff url("../img/search-icon.png") no-repeat 5px center;
 }
-/* line 79, ../scss/style/_main.scss */
-.text-input-cari:focus {
+/* line 51, ../scss/style/_main.scss */
+input[type="text"]:focus, textarea:focus {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
   -webkit-transition-duration: 0.5s;
@@ -508,21 +498,79 @@ h2.title {
   -webkit-box-shadow: 0 0 10px #FFcc00;
   box-shadow: 0 0 10px #FFcc00;
 }
-/* line 85, ../scss/style/_main.scss */
-.text-input-cari.highlight {
+/* line 57, ../scss/style/_main.scss */
+input[type="text"].highlight, textarea.highlight {
   border: 1px solid #ffcc33;
   -moz-box-shadow: 0 0 1px #ffff00;
   -webkit-box-shadow: 0 0 1px #ffff00;
   box-shadow: 0 0 1px #ffff00;
 }
 
-/* line 95, ../scss/style/_main.scss */
+/* line 64, ../scss/style/_main.scss */
+input[type="text"] {
+  width: 200px;
+  height: 25px;
+  outline: none;
+  border: 0;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+}
+/* line 73, ../scss/style/_main.scss */
+input[type="text"]:focus {
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -moz-box-shadow: 0 0 10px #FFcc00;
+  -webkit-box-shadow: 0 0 10px #FFcc00;
+  box-shadow: 0 0 10px #FFcc00;
+}
+/* line 79, ../scss/style/_main.scss */
+input[type="text"].highlight {
+  border: 1px solid #ffcc33;
+  -moz-box-shadow: 0 0 1px #ffff00;
+  -webkit-box-shadow: 0 0 1px #ffff00;
+  box-shadow: 0 0 1px #ffff00;
+}
+
+/* line 86, ../scss/style/_main.scss */
+input[type=button] {
+  color: #ffffff;
+  font-size: 14px;
+  padding: 14px;
+  background: #3e9968;
+  border: 0;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 105, ../scss/style/_main.scss */
+input[type=button]:hover {
+  background: #2f754f;
+}
+
+/* line 109, ../scss/style/_main.scss */
+#pencarian {
+  margin-top: 11px;
+  position: absolute;
+  top: 0px;
+  right: 15px;
+}
+
+/* line 117, ../scss/style/_main.scss */
+.text-input-cari {
+  width: 200px !important;
+  padding-left: 30px !important;
+  background: #ffffff url("../img/search-icon.png") no-repeat 5px center;
+}
+
+/* line 123, ../scss/style/_main.scss */
 .text-input {
   padding-left: 10px;
 }
 
 /*  AKHIR BOX PENCARIAN  */
-/* line 102, ../scss/style/_main.scss */
+/* line 130, ../scss/style/_main.scss */
 .fixed {
   position: fixed;
   width: 100%;
@@ -533,7 +581,7 @@ h2.title {
   box-shadow: 0 1px 4px #858585;
 }
 
-/* line 110, ../scss/style/_main.scss */
+/* line 138, ../scss/style/_main.scss */
 #headline {
   margin: 0 15px;
   background: #2B5284;
@@ -543,7 +591,7 @@ h2.title {
 }
 
 /*  BAGIAN HEADER  */
-/* line 118, ../scss/style/_main.scss */
+/* line 146, ../scss/style/_main.scss */
 #header {
   color: #ffffff;
   padding: 25px 0;
@@ -555,25 +603,25 @@ h2.title {
   background-image: linear-gradient(to bottom, #45ab74, #3e9968);
   border-bottom: 1px solid #37875c;
 }
-/* line 127, ../scss/style/_main.scss */
+/* line 155, ../scss/style/_main.scss */
 #header img {
   float: left;
   width: 10%;
   margin-right: 15px;
 }
-/* line 132, ../scss/style/_main.scss */
+/* line 160, ../scss/style/_main.scss */
 #header .logo {
   top: 0;
   width: 50px;
 }
-/* line 137, ../scss/style/_main.scss */
+/* line 165, ../scss/style/_main.scss */
 #header h1 {
   padding-top: 15px;
   text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
   font-size: 24px;
   line-height: 20px;
 }
-/* line 145, ../scss/style/_main.scss */
+/* line 173, ../scss/style/_main.scss */
 #header h1 span {
   display: block;
   font-size: 14px;
@@ -581,13 +629,13 @@ h2.title {
 }
 
 /*  AKHIR HEADER  */
-/* line 155, ../scss/style/_main.scss */
+/* line 183, ../scss/style/_main.scss */
 #main-menu {
   display: block;
 }
 
 /*  NAVIGASI  */
-/* line 160, ../scss/style/_main.scss */
+/* line 188, ../scss/style/_main.scss */
 nav {
   display: block;
   border-bottom: solid 1px #37875c;
@@ -600,28 +648,28 @@ nav {
   text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
   color: #ffffff;
 }
-/* line 168, ../scss/style/_main.scss */
+/* line 196, ../scss/style/_main.scss */
 nav #resp-menu {
   display: none;
 }
-/* line 172, ../scss/style/_main.scss */
+/* line 200, ../scss/style/_main.scss */
 nav a {
   padding: 15px 20px;
   display: block;
   color: #ffffff;
 }
-/* line 178, ../scss/style/_main.scss */
+/* line 206, ../scss/style/_main.scss */
 nav ul {
   display: block;
   z-index: 999;
 }
-/* line 187, ../scss/style/_main.scss */
+/* line 215, ../scss/style/_main.scss */
 nav ul li {
   float: left;
   position: relative;
   display: block;
 }
-/* line 193, ../scss/style/_main.scss */
+/* line 221, ../scss/style/_main.scss */
 nav ul li a:hover {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
@@ -630,15 +678,15 @@ nav ul li a:hover {
   background: #ffffff;
   color: #3e9968;
 }
-/* line 200, ../scss/style/_main.scss */
+/* line 228, ../scss/style/_main.scss */
 nav ul li:hover > ul {
   display: block;
 }
-/* line 204, ../scss/style/_main.scss */
+/* line 232, ../scss/style/_main.scss */
 nav ul li.active {
   background: #37875c;
 }
-/* line 209, ../scss/style/_main.scss */
+/* line 237, ../scss/style/_main.scss */
 nav ul li ul {
   border-top: solid 1px #37875c;
   white-space: nowrap;
@@ -648,21 +696,21 @@ nav ul li ul {
   -webkit-box-shadow: -3px 3px 10px -2px rgba(0, 0, 0, 0.4);
   box-shadow: -3px 3px 10px -2px rgba(0, 0, 0, 0.4);
 }
-/* line 218, ../scss/style/_main.scss */
+/* line 246, ../scss/style/_main.scss */
 nav ul li ul li {
   float: none;
   border-bottom: 1px solid #45ab74;
 }
-/* line 221, ../scss/style/_main.scss */
+/* line 249, ../scss/style/_main.scss */
 nav ul li ul li:last-child {
   border-bottom: 0;
 }
-/* line 225, ../scss/style/_main.scss */
+/* line 253, ../scss/style/_main.scss */
 nav ul li ul li a {
   background: #3e9968;
   padding: 10px 20px 10px 10px;
 }
-/* line 230, ../scss/style/_main.scss */
+/* line 258, ../scss/style/_main.scss */
 nav ul li ul li ul {
   border: none;
   white-space: nowrap;
@@ -673,11 +721,11 @@ nav ul li ul li ul {
 
 /*  AKHIR NAVIGASI  */
 /*  BAGIAN KONTEN BERITA */
-/* line 248, ../scss/style/_main.scss */
+/* line 276, ../scss/style/_main.scss */
 section a {
   color: #3e9968;
 }
-/* line 251, ../scss/style/_main.scss */
+/* line 279, ../scss/style/_main.scss */
 section a.read-more {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -689,7 +737,7 @@ section a.read-more {
   padding: 5px 10px;
   background: #51b981;
 }
-/* line 260, ../scss/style/_main.scss */
+/* line 288, ../scss/style/_main.scss */
 section a.read-more:hover {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
@@ -697,7 +745,7 @@ section a.read-more:hover {
   transition-duration: 0.5s;
   background-color: #3e9968;
 }
-/* line 267, ../scss/style/_main.scss */
+/* line 295, ../scss/style/_main.scss */
 section article {
   display: block;
   overflow: hidden;
@@ -705,20 +753,20 @@ section article {
   border-bottom: 1px dashed #d2d2d2;
   clear: both;
 }
-/* line 274, ../scss/style/_main.scss */
+/* line 302, ../scss/style/_main.scss */
 section article:last-child {
   border-bottom: 0;
   margin-bottom: 0;
 }
-/* line 279, ../scss/style/_main.scss */
+/* line 307, ../scss/style/_main.scss */
 section article .tanggal-post {
   font-size: 12px;
 }
-/* line 283, ../scss/style/_main.scss */
+/* line 311, ../scss/style/_main.scss */
 section article h3 {
   color: #3e9968;
 }
-/* line 286, ../scss/style/_main.scss */
+/* line 314, ../scss/style/_main.scss */
 section article h3 a:hover {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
@@ -727,11 +775,11 @@ section article h3 a:hover {
   color: #858585;
   text-decoration: underline;
 }
-/* line 295, ../scss/style/_main.scss */
+/* line 323, ../scss/style/_main.scss */
 section article p {
   margin: 10px 0;
 }
-/* line 299, ../scss/style/_main.scss */
+/* line 327, ../scss/style/_main.scss */
 section article img {
   float: left;
   display: block;
@@ -740,30 +788,30 @@ section article img {
 
 /*  AKHIR KONTEN BERITA  */
 /* BAGIAN ASIDE */
-/* line 310, ../scss/style/_main.scss */
+/* line 338, ../scss/style/_main.scss */
 .agenda {
   clear: both;
   overflow: hidden;
   display: block;
   padding: 20px 15px 10px 20px;
 }
-/* line 312, ../scss/style/_main.scss */
+/* line 340, ../scss/style/_main.scss */
 .agenda .item-agenda {
   padding-bottom: 5px;
   border-bottom: 1px dashed #e3e3e3;
   overflow: hidden;
 }
-/* line 317, ../scss/style/_main.scss */
+/* line 345, ../scss/style/_main.scss */
 .agenda .item-agenda:last-child {
   border-bottom: 0;
   margin-bottom: 0;
   padding-bottom: 0;
 }
-/* line 331, ../scss/style/_main.scss */
+/* line 359, ../scss/style/_main.scss */
 .agenda li {
   margin-bottom: 10px;
 }
-/* line 336, ../scss/style/_main.scss */
+/* line 364, ../scss/style/_main.scss */
 .agenda .kalender {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -779,35 +827,35 @@ section article img {
   width: 60px;
   color: #ffffff;
 }
-/* line 348, ../scss/style/_main.scss */
+/* line 376, ../scss/style/_main.scss */
 .agenda .kalender .hari {
   display: block;
   background: #2B5284;
   padding: 2px;
   margin-bottom: 2px;
 }
-/* line 354, ../scss/style/_main.scss */
+/* line 382, ../scss/style/_main.scss */
 .agenda .kalender .tanggal {
   font-size: 20px;
   font-weight: bold;
   display: block;
 }
-/* line 359, ../scss/style/_main.scss */
+/* line 387, ../scss/style/_main.scss */
 .agenda .kalender .bulan {
   display: block;
 }
-/* line 364, ../scss/style/_main.scss */
+/* line 392, ../scss/style/_main.scss */
 .agenda .detail-agenda {
   line-height: 25px;
   display: block;
   overflow: hidden;
 }
-/* line 371, ../scss/style/_main.scss */
+/* line 399, ../scss/style/_main.scss */
 .agenda .detail-agenda .acara a {
   line-height: 20px;
   color: #3e76be;
 }
-/* line 374, ../scss/style/_main.scss */
+/* line 402, ../scss/style/_main.scss */
 .agenda .detail-agenda .acara a:hover {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
@@ -817,7 +865,7 @@ section article img {
   text-decoration: underline;
 }
 
-/* line 384, ../scss/style/_main.scss */
+/* line 412, ../scss/style/_main.scss */
 .box {
   overflow: hidden;
   background: #ffffff;
@@ -826,29 +874,29 @@ section article img {
   -webkit-box-shadow: 1px 0 15px #c7c7c7;
   box-shadow: 1px 0 15px #c7c7c7;
 }
-/* line 385, ../scss/style/_main.scss */
+/* line 413, ../scss/style/_main.scss */
 .box img {
   position: relative;
   top: 8px;
   left: 10px;
   float: left;
 }
-/* line 396, ../scss/style/_main.scss */
+/* line 424, ../scss/style/_main.scss */
 .box .judul-box {
   background: #3e9968;
   color: #ffffff;
   padding: 15px 50px 15px;
   border-bottom: 4px solid #FFcc00;
 }
-/* line 404, ../scss/style/_main.scss */
+/* line 432, ../scss/style/_main.scss */
 .box .detail-box li {
   padding: 10px;
 }
-/* line 407, ../scss/style/_main.scss */
+/* line 435, ../scss/style/_main.scss */
 .box .detail-box li:last-child {
   border-bottom: 0;
 }
-/* line 411, ../scss/style/_main.scss */
+/* line 439, ../scss/style/_main.scss */
 .box .detail-box li:hover {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
@@ -856,16 +904,16 @@ section article img {
   transition-duration: 0.5s;
   background: #f7f7f7;
 }
-/* line 418, ../scss/style/_main.scss */
+/* line 446, ../scss/style/_main.scss */
 .box .item-box {
   border-bottom: 1px dashed #d2d2d2;
 }
-/* line 420, ../scss/style/_main.scss */
+/* line 448, ../scss/style/_main.scss */
 .box .item-box a {
   display: block;
   color: #858585;
 }
-/* line 423, ../scss/style/_main.scss */
+/* line 451, ../scss/style/_main.scss */
 .box .item-box a:hover {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
@@ -876,39 +924,39 @@ section article img {
 
 /* AKHIR ASIDE */
 /* BAGIAN KONTEN PRODUK UNGGULAN*/
-/* line 434, ../scss/style/_main.scss */
+/* line 462, ../scss/style/_main.scss */
 #produk {
   margin: 5px 0 20px 0;
 }
 
 /* AKHIR KONTEN PRODUK UNGGULAN*/
 /*  BAGIAN FOOTER  */
-/* line 444, ../scss/style/_main.scss */
+/* line 472, ../scss/style/_main.scss */
 footer {
   border-top: solid 6px #FFcc00;
   color: #ababab;
 }
-/* line 449, ../scss/style/_main.scss */
+/* line 477, ../scss/style/_main.scss */
 footer h3 {
   color: #FFcc00;
   border-bottom: 1px solid #858585;
   padding: 0 0 5px 0px;
 }
-/* line 457, ../scss/style/_main.scss */
+/* line 485, ../scss/style/_main.scss */
 footer .tautan ul {
   margin-top: 5px;
   padding-top: 4px;
 }
-/* line 461, ../scss/style/_main.scss */
+/* line 489, ../scss/style/_main.scss */
 footer .tautan ul li {
   border-bottom: 1px dotted #858585;
 }
-/* line 466, ../scss/style/_main.scss */
+/* line 494, ../scss/style/_main.scss */
 footer .tautan a {
   padding: 5px 0;
   color: #ababab;
 }
-/* line 470, ../scss/style/_main.scss */
+/* line 498, ../scss/style/_main.scss */
 footer .tautan a:hover {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
@@ -917,23 +965,23 @@ footer .tautan a:hover {
   color: #FFcc00;
   text-decoration: underline;
 }
-/* line 478, ../scss/style/_main.scss */
+/* line 506, ../scss/style/_main.scss */
 footer #footer-top {
   background: #505050;
   padding: 15px 0;
 }
-/* line 479, ../scss/style/_main.scss */
+/* line 507, ../scss/style/_main.scss */
 footer #footer-top p {
   text-align: left;
   padding-top: 15px;
 }
-/* line 488, ../scss/style/_main.scss */
+/* line 516, ../scss/style/_main.scss */
 footer #footer-bottom {
   background: #313131;
   font-size: .9em;
   padding: 10px 0;
 }
-/* line 489, ../scss/style/_main.scss */
+/* line 517, ../scss/style/_main.scss */
 footer #footer-bottom p {
   text-align: center;
   color: #ffffff;

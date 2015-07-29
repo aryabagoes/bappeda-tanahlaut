@@ -40,35 +40,29 @@ h2 {
 
 /*  BOX PENCARIAN  */
 
-// input[type="text"]{
-// 	width: 200px;
-//     height: 25px;
-// 	outline: none;
-// 	border :0;		
-//     border: 1px solid #DDDDDD;
-// 	border-radius:3px;
+input[type="text"], textarea{
+	color:$text-gray;
+	padding-left :10px;
+	outline: none;
+	border :0;		
+    border: 1px solid #DDDDDD;
+	border-radius:3px;
 
-// 	&:focus {			
-// 		@include transition-duration (.5s);
-// 		// box-shadow: 0 0 5px $kuning;  		
-// 		@include box-shadow(0 0 10px $kuning);	
-// 	}	
+	&:focus {			
+		@include transition-duration (.5s);
+		// box-shadow: 0 0 5px $kuning;  		
+		@include box-shadow(0 0 10px $kuning);	
+	}	
 
-// 	&.highlight {
-//     border: 1px solid #ffcc33;
-//     // box-shadow: 0 0 1px #ffff00;	
-// 	@include box-shadow(0 0 1px #ffff00);	
-// 	}
-// }	
-
-#pencarian {
-	margin-top : 11px;
-	position: absolute;
-	top: 0px;
-	right: 15px;
+	&.highlight {
+    border: 1px solid #ffcc33;
+    // box-shadow: 0 0 1px #ffff00;	
+	@include box-shadow(0 0 1px #ffff00);	
+	}
 }
 
-.text-input-cari {	
+input[type="text"]{
+	
 	width: 200px;
     height: 25px;
 	outline: none;
@@ -87,9 +81,43 @@ h2 {
     // box-shadow: 0 0 1px #ffff00;	
 	@include box-shadow(0 0 1px #ffff00);	
 	}
-	padding-left:30px;
-	background: $putih url('../img/search-icon.png') no-repeat 5px center;	
+}	
 
+input[type=button] {
+    color:$putih;
+    // font:2.4em Futura, ‘Century Gothic’, AppleGothic, sans-serif;
+    font-size:14px;
+    padding:14px;
+    background:$hijau;
+    // background-color:rgba(255,204,0,1);
+    border:0;
+    
+    @include border-radius(5px);
+    // -moz-border-radius:10px;
+    // -webkit-border-radius:10px;
+    // border-radius:10px;
+    // border-bottom:1px solid #9f9f9f;
+    // -moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+    // -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+    // box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+    // cursor:pointer;
+
+    &:hover {
+    background:darken($hijau,10%);
+	}
+}
+#pencarian {
+
+	margin-top : 11px;
+	position: absolute;
+	top: 0px;
+	right: 15px;
+}
+
+.text-input-cari {	
+	width: 200px !important;
+	padding-left:30px !important;
+	background: $putih url('../img/search-icon.png') no-repeat 5px center;	
 }
 
 .text-input {	
