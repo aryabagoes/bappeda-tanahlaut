@@ -30,14 +30,28 @@
 	right: 20px;
 	top:20px;
 
-	background: transparent;
+	background: #f29e0d;
 	border:0;
-	color:#444;
+	color:#fff;
+	padding: 0 10px 0 0;
+	// padding:5px;
 	
 	outline: 0;     
     outline-style: none;     
     outline-width: 0; 
+    @include box-shadow(0 -2px 0 darken(#f29e0d,10%) inset);
+    @include transition-duration(0.5s);
+    &:hover{
+    	background: darken(#f29e0d,10%);
+    }
+    @include text-shadow(0 1px 2px lighten(#444,10%));
 	i{
+		@include box-shadow(0 -2px 0 darken(#fff,50%) inset);
+		@include text-shadow(0 1px 1px lighten(#fff,30%));
+		padding: 8px;
+		background: #fff;
+		color:#444;
+		margin-right: 5px;
 		// padding:10px;
 		// @include border-radius(100%);
 		// @include background-image(linear-gradient(#fff,lighten(#eee,1%)));
