@@ -75,28 +75,43 @@ $(window).load(function(){
 
 $(document).ready(function()
 {
+    // toggle icon function
+    function togglepauseicon(obj,button,playicon,pauseicon){
+        // appending button menu-icon
+        if (obj.isPaused()) {
+            // add play icon on button
+            button.html(playicon);
+        }else{
+            // add pause icon on button
+            button.html(pauseicon);
+        }
+    }
+
+
     if ($('body#landing').length) {
     // alert("Ada ID landing");
 
+    playicon = "<i class=\"fa fa-play\"></i> Play";
+    pauseicon = "<i class=\"fa fa-pause\"></i> Pause";
+    togglepause = $('button#togglepause');
 
     // suara
     var suara  = new buzz.sound("./sound/alam",{
         formats: ["ogg"]
     });
 
+    // autoplay suara dengan efek fadein dan loop
     suara.play()
         .fadeIn()
         .loop()
 
-    // appending button menu-icon
-     if (suara.isPaused()) {
-        // add play icon on button
-     }else{
-        // add pause icon on button
-     }
+    // callback function 
+    togglepauseicon(suara,togglepause,playicon,pauseicon);
 
-    $('button#togglepause').click(function(){
+    // toggle suara yang jalan
+    togglepause.click(function(){
         suara.togglePlay();
+        togglepauseicon(suara,togglepause,playicon,pauseicon);
     })
 
     // 
