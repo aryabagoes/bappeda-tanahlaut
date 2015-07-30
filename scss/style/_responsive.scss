@@ -2,6 +2,9 @@
 //responsive zeengrid 
 
 @media screen and (max-width: 768px) {
+	audio {
+		display: none;
+	}
 	#kotak{
 		// background: red;
 		width: 70%;

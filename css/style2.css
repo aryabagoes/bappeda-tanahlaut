@@ -1142,28 +1142,33 @@ footer #footer-bottom p {
 
 @media screen and (max-width: 768px) {
   /* line 5, ../scss/style/_responsive.scss */
+  audio {
+    display: none;
+  }
+
+  /* line 8, ../scss/style/_responsive.scss */
   #kotak {
     width: 70%;
   }
 
-  /* line 9, ../scss/style/_responsive.scss */
+  /* line 12, ../scss/style/_responsive.scss */
   #headline {
     margin: 0;
     margin-bottom: 15px;
   }
 
-  /* line 13, ../scss/style/_responsive.scss */
+  /* line 16, ../scss/style/_responsive.scss */
   .awan-latar {
     display: none;
   }
 
-  /* line 16, ../scss/style/_responsive.scss */
+  /* line 19, ../scss/style/_responsive.scss */
   .logo {
     visibility: hidden;
     width: 50px;
   }
 
-  /* line 22, ../scss/style/_responsive.scss */
+  /* line 25, ../scss/style/_responsive.scss */
   #header .logo {
     display: block;
     visibility: visible;
@@ -1171,108 +1176,108 @@ footer #footer-bottom p {
     float: none;
     margin: auto;
   }
-  /* line 29, ../scss/style/_responsive.scss */
+  /* line 32, ../scss/style/_responsive.scss */
   #header h1 {
     clear: both;
   }
 
-  /* line 33, ../scss/style/_responsive.scss */
+  /* line 36, ../scss/style/_responsive.scss */
   #slider {
     display: none;
   }
 
-  /* line 37, ../scss/style/_responsive.scss */
+  /* line 40, ../scss/style/_responsive.scss */
   section {
     margin-bottom: 15px !important;
   }
-  /* line 40, ../scss/style/_responsive.scss */
+  /* line 43, ../scss/style/_responsive.scss */
   section article img {
     display: none !important;
   }
 
-  /* line 45, ../scss/style/_responsive.scss */
+  /* line 48, ../scss/style/_responsive.scss */
   .zeen-4, .zeen-8 {
     float: left;
     width: 100%;
     margin: 0;
   }
 
-  /* line 52, ../scss/style/_responsive.scss */
+  /* line 55, ../scss/style/_responsive.scss */
   #footer-top .kontak, #footer-top .tautan, #footer-top .polling {
     margin-bottom: 20px;
   }
 
-  /* line 57, ../scss/style/_responsive.scss */
+  /* line 60, ../scss/style/_responsive.scss */
   #header {
     text-align: center;
   }
-  /* line 58, ../scss/style/_responsive.scss */
+  /* line 61, ../scss/style/_responsive.scss */
   #header .bungkus {
     padding: 0;
   }
-  /* line 62, ../scss/style/_responsive.scss */
+  /* line 65, ../scss/style/_responsive.scss */
   #header h1 {
     font-size: 24px;
     line-height: 25px;
   }
-  /* line 66, ../scss/style/_responsive.scss */
+  /* line 69, ../scss/style/_responsive.scss */
   #header h1 span {
     display: block;
     font-size: 16px;
     font-weight: 100;
   }
 
-  /* line 73, ../scss/style/_responsive.scss */
+  /* line 76, ../scss/style/_responsive.scss */
   nav {
     display: block;
   }
-  /* line 78, ../scss/style/_responsive.scss */
+  /* line 81, ../scss/style/_responsive.scss */
   nav a {
     padding: 15px 20px;
     display: block;
     color: #ffffff;
   }
-  /* line 84, ../scss/style/_responsive.scss */
+  /* line 87, ../scss/style/_responsive.scss */
   nav #resp-menu {
     display: block;
     background: url("../img/nav-icon.png") no-repeat center left;
     padding: 25px 0;
   }
-  /* line 99, ../scss/style/_responsive.scss */
+  /* line 102, ../scss/style/_responsive.scss */
   nav ul li {
     float: none;
   }
-  /* line 100, ../scss/style/_responsive.scss */
+  /* line 103, ../scss/style/_responsive.scss */
   nav ul li a {
     padding: 8px;
   }
-  /* line 104, ../scss/style/_responsive.scss */
+  /* line 107, ../scss/style/_responsive.scss */
   nav ul li > ul {
     border: none;
     box-shadow: none;
     display: block;
     position: relative;
   }
-  /* line 110, ../scss/style/_responsive.scss */
+  /* line 113, ../scss/style/_responsive.scss */
   nav ul li > ul li {
     border: none;
   }
-  /* line 112, ../scss/style/_responsive.scss */
+  /* line 115, ../scss/style/_responsive.scss */
   nav ul li > ul li > a {
     padding: 8px 8px 8px 25px;
     background: rgba(255, 0, 255, 0);
   }
-  /* line 117, ../scss/style/_responsive.scss */
+  /* line 120, ../scss/style/_responsive.scss */
   nav ul li > ul li ul {
     position: relative;
     left: 0;
   }
-  /* line 119, ../scss/style/_responsive.scss */
+  /* line 122, ../scss/style/_responsive.scss */
   nav ul li > ul li ul li > a {
     padding: 8px 8px 8px 40px;
   }
 
-  /* line 135, ../scss/style/_responsive.scss */
+  /* line 138, ../scss/style/_responsive.scss */
   #landing header {
     margin-bottom: 50px;
   }
