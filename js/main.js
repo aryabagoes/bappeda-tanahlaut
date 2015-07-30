@@ -72,13 +72,29 @@ $(window).load(function(){
 // 	}	
 // });
 
+
 $(document).ready(function()
 {
-	$('body .awan-latar')
-		.parallax({
-			mouseport: $('body'),
-			xparallax:'100%',
-			yparallax:0
+    if ($('body#landing').length) {
+    // alert("Ada ID landing");
 
-		})
+    // suara
+    var suara  = new buzz.sound("./sound/alam",{
+        formats: ["ogg"]
+    });
+
+    suara.play()
+        .fadeIn()
+        .loop()
+
+    // awan
+    $('body .awan-latar')
+        .parallax({
+            mouseport: $('body'),
+            xparallax:'100%',
+            yparallax:0
+
+        })
+    };
+	
 })
