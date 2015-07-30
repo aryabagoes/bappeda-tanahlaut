@@ -78,6 +78,7 @@ $(document).ready(function()
     if ($('body#landing').length) {
     // alert("Ada ID landing");
 
+
     // suara
     var suara  = new buzz.sound("./sound/alam",{
         formats: ["ogg"]
@@ -86,6 +87,19 @@ $(document).ready(function()
     suara.play()
         .fadeIn()
         .loop()
+
+    // appending button menu-icon
+     if (suara.isPaused()) {
+        // add play icon on button
+     }else{
+        // add pause icon on button
+     }
+
+    $('button#togglepause').click(function(){
+        suara.togglePlay();
+    })
+
+    // 
 
     // awan
     $('body .awan-latar')
