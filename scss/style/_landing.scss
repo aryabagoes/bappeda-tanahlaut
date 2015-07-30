@@ -30,6 +30,17 @@
 	right: 20px;
 	top:20px;
 
+	background: transparent;
+	border:solid 0px transparent;
+	color:#444;
+
+	i{
+		// padding:10px;
+		// @include border-radius(100%);
+		// @include background-image(linear-gradient(#fff,lighten(#eee,1%)));
+		// @include box-shadow(0 -2px 3px #ddd inset);
+	}
+
 }
 
 #kotak{
