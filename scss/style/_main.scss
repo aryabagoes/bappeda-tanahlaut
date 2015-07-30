@@ -46,11 +46,20 @@ h2 {
 }
 
 #produk-detail {
+
 	li {
 		display : inline-table;
 		padding : 5px;
 	}
 	text-align : center;
+
+	img{
+		@include transition-duration(0.5s);
+		opacity: 0.9;
+		&:hover{
+			opacity: 1;
+		}
+	}
 }
 
 /*  BOX PENCARIAN  */
