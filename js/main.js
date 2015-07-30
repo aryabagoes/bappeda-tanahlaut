@@ -72,13 +72,58 @@ $(window).load(function(){
 // 	}	
 // });
 
+
 $(document).ready(function()
 {
-	$('body .awan-latar')
-		.parallax({
-			mouseport: $('body'),
-			xparallax:'100%',
-			yparallax:0
+    // toggle icon function
+    function togglepauseicon(obj,button,playicon,pauseicon){
+        // appending button menu-icon
+        if (obj.isPaused()) {
+            // add play icon on button
+            button.html(playicon);
+        }else{
+            // add pause icon on button
+            button.html(pauseicon);
+        }
+    }
 
-		})
+
+    if ($('body#landing').length) {
+    // alert("Ada ID landing");
+
+    playicon = "<i class=\"fa fa-play\"></i> Play";
+    pauseicon = "<i class=\"fa fa-pause\"></i> Pause";
+    togglepause = $('button#togglepause');
+
+    // suara
+    var suara  = new buzz.sound("./sound/alam",{
+        formats: ["ogg"]
+    });
+
+    // autoplay suara dengan efek fadein dan loop
+    suara.play()
+        .fadeIn()
+        .loop()
+
+    // callback function 
+    togglepauseicon(suara,togglepause,playicon,pauseicon);
+
+    // toggle suara yang jalan
+    togglepause.click(function(){
+        suara.togglePlay();
+        togglepauseicon(suara,togglepause,playicon,pauseicon);
+    })
+
+    // 
+
+    // awan
+    $('body .awan-latar')
+        .parallax({
+            mouseport: $('body'),
+            xparallax:'100%',
+            yparallax:0
+
+        })
+    };
+	
 })

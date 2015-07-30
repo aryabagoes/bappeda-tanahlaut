@@ -270,7 +270,7 @@ img {
   position: relative;
   *zoom: 1;
 }
-/* line 38, ../../../../.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scss */
 .bungkus:after {
   content: "";
   display: table;
@@ -285,7 +285,7 @@ img {
   max-width: 978px;
   *zoom: 1;
 }
-/* line 38, ../../../../.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scss */
 .baris:after {
   content: "";
   display: table;
@@ -368,6 +368,7 @@ img {
 /* line 2, ../scss/style/_general.scss */
 body {
   font-family: "Arial",sans-serif;
+  background: url('../img/bg-home.png?1438227058');
   font-size: 14px;
   font-weight: 100;
   color: #858585;
@@ -998,7 +999,7 @@ footer #footer-bottom p {
 #landing {
   position: relative;
   height: 100vh;
-  background: url('../img/bg-landing.jpg?1437901126') top;
+  background: url('../img/bg-landing.jpg?1437789703') top;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -1017,12 +1018,72 @@ footer #footer-bottom p {
 /* line 18, ../scss/style/_landing.scss */
 #landing h1 span {
   display: block;
-  color: #919191;
+  color: #909090;
   font-size: 12px;
   font-weight: 100;
 }
 
 /* line 28, ../scss/style/_landing.scss */
+#togglepause {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  background: #f29e0d;
+  border: 0;
+  color: #fff;
+  padding: 0 10px 0 0;
+  outline: 0;
+  outline-style: none;
+  outline-width: 0;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  text-shadow: 0 1px 2px #5e5e5e;
+}
+/* line 44, ../scss/style/_landing.scss */
+#togglepause:hover {
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  background: #da8e0c;
+}
+/* line 47, ../scss/style/_landing.scss */
+#togglepause:hover i {
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  background: #c27e0a;
+}
+/* line 53, ../scss/style/_landing.scss */
+#togglepause i {
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  text-shadow: 0 1px 1px #5e5e5e;
+  padding: 8px;
+  background: #da8e0c;
+  color: #fff;
+  margin-right: 5px;
+}
+/* line 66, ../scss/style/_landing.scss */
+#togglepause:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -3px;
+  right: -3px;
+  bottom: -3px;
+  left: -3px;
+  background: rgba(255, 255, 255, 0.3);
+  z-index: -1;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* line 81, ../scss/style/_landing.scss */
 #kotak {
   margin-top: 100px;
   position: relative;
@@ -1030,7 +1091,7 @@ footer #footer-bottom p {
   width: 50%;
   margin: auto;
 }
-/* line 34, ../scss/style/_landing.scss */
+/* line 87, ../scss/style/_landing.scss */
 #kotak header {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2YxZjFmMSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
@@ -1043,11 +1104,11 @@ footer #footer-bottom p {
   box-shadow: 0 -2px 3px #ddd inset;
   padding-bottom: 15px;
 }
-/* line 39, ../scss/style/_landing.scss */
+/* line 92, ../scss/style/_landing.scss */
 #kotak section {
   display: block;
 }
-/* line 42, ../scss/style/_landing.scss */
+/* line 95, ../scss/style/_landing.scss */
 #kotak footer {
   color: #444;
   padding: 15px;
@@ -1058,7 +1119,7 @@ footer #footer-bottom p {
   -webkit-box-shadow: 0 1px 5px #ddd inset;
   box-shadow: 0 1px 5px #ddd inset;
 }
-/* line 51, ../scss/style/_landing.scss */
+/* line 104, ../scss/style/_landing.scss */
 #kotak:before {
   content: "";
   display: block;
@@ -1072,7 +1133,7 @@ footer #footer-bottom p {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* line 65, ../scss/style/_landing.scss */
+/* line 118, ../scss/style/_landing.scss */
 .logo {
   margin: auto;
   display: block;
@@ -1082,7 +1143,7 @@ footer #footer-bottom p {
   height: 80%;
 }
 
-/* line 74, ../scss/style/_landing.scss */
+/* line 127, ../scss/style/_landing.scss */
 .btn {
   background: #fff;
   overflow: hidden;
@@ -1095,7 +1156,7 @@ footer #footer-bottom p {
   top: -40px;
   margin-bottom: -40px;
 }
-/* line 83, ../scss/style/_landing.scss */
+/* line 136, ../scss/style/_landing.scss */
 .btn a {
   -moz-transition-duration: 0.2s;
   -o-transition-duration: 0.2s;
@@ -1106,11 +1167,11 @@ footer #footer-bottom p {
   font-size: 28px;
   line-height: 30px;
 }
-/* line 89, ../scss/style/_landing.scss */
+/* line 142, ../scss/style/_landing.scss */
 .btn a:hover {
   color: #3e9968;
 }
-/* line 92, ../scss/style/_landing.scss */
+/* line 145, ../scss/style/_landing.scss */
 .btn a span {
   font-weight: normal;
   color: #aaa;
@@ -1119,7 +1180,7 @@ footer #footer-bottom p {
   line-height: 15px;
 }
 
-/* line 103, ../scss/style/_landing.scss */
+/* line 156, ../scss/style/_landing.scss */
 #awan {
   position: relative;
   overflow: hidden;
@@ -1127,14 +1188,14 @@ footer #footer-bottom p {
   height: 250px;
 }
 
-/* line 106, ../scss/style/_landing.scss */
+/* line 159, ../scss/style/_landing.scss */
 .awan-viewport {
   position: relative;
   /* relative, absolute, fixed */
   overflow: hidden;
 }
 
-/* line 110, ../scss/style/_landing.scss */
+/* line 163, ../scss/style/_landing.scss */
 .awan-latar {
   position: absolute;
   top: 0;
