@@ -106,12 +106,11 @@ input[type="text"]{
 	@include box-shadow(0 0 1px #ffff00);	
 	}
 }	
-
-input[type=button] {
+button{
     color:$putih;
     // font:2.4em Futura, ‘Century Gothic’, AppleGothic, sans-serif;
     font-size:14px;
-    padding:14px;
+    padding:10px 15px;
     background:$hijau;
     // background-color:rgba(255,204,0,1);
     border:0;
@@ -173,7 +172,7 @@ padding-left:10px;
 	color : $putih;
 	padding : 25px 0;
 
-	@include background-image(linear-gradient(to bottom, lighten($hijau,5%),  $hijau));
+	@include background-image(linear-gradient(to bottom, saturate($hijau,50%), darken($hijau,1%)));
 	border-bottom : 1px solid darken($hijau,5%);	
 
 	img {
@@ -212,7 +211,7 @@ padding-left:10px;
 nav {
 	display : block;
 	border-bottom : solid 1px darken($hijau,5%);
-	@include background-image(linear-gradient(to bottom, lighten($hijau,5%), $hijau));
+	@include background-image(linear-gradient(to bottom, saturate($hijau,20%), $hijau));
 	text-shadow: 0 2px 2px rgba(0,0,0,.3);
 	color :$putih;
 	
