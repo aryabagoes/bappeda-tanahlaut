@@ -18,11 +18,9 @@ ul.pagination {
 		@include border-radius(3px);
 		@include transition-duration(.3s);
 
-
 		&:hover, &.active {
 			
 			background : $hijau;
-
 			color: $putih;
 			border : 1px solid $hijau;
 
@@ -231,12 +229,6 @@ nav {
 	}
 	
 	ul {
-
-		// &#main-menu {
-		// 	display: block;
-		// }
-	
-		
 		display: block;
 		z-index: 999;
 		li {
@@ -552,10 +544,8 @@ footer {
 
 		}
 			
-		p{
-			
+		p{			
 			padding : 0 !important;
-
 		}
 	}
 
