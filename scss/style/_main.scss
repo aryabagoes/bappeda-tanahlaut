@@ -8,6 +8,7 @@
 // }
 
 
+
 ul.pagination {
 	
 	a {		
@@ -528,10 +529,12 @@ section {
 
 /*  BAGIAN FOOTER  */
 
+
 footer {
 	// border-top : solid 5px $kuning;
 	border-top : solid 6px $kuning;
 	color : lighten($text-gray, 15%);
+
 
 	h3 {
 		color: $kuning;
@@ -539,6 +542,35 @@ footer {
 		// margin-bottom: 15px; 
 		padding: 0 0 5px 0px;
 	}
+
+	.kontak {
+
+		h4 {
+			// color: $kuning;
+			span {
+				font-size: 90%;
+				font-weight : normal;
+			}
+		}
+		
+		ul {
+			// margin-left: 10px;
+			margin-top : 15px;
+		}
+
+		li {
+			margin-bottom: 10px;
+
+		}
+			
+		p{
+			
+			padding : 0 !important;
+
+		}
+	}
+
+
 
 	.tautan {
 		ul {
