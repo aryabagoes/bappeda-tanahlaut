@@ -270,7 +270,7 @@ img {
   position: relative;
   *zoom: 1;
 }
-/* line 38, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/utilities/general/_clearfix.scss */
 .bungkus:after {
   content: "";
   display: table;
@@ -285,7 +285,7 @@ img {
   max-width: 978px;
   *zoom: 1;
 }
-/* line 38, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/utilities/general/_clearfix.scss */
 .baris:after {
   content: "";
   display: table;
@@ -368,7 +368,7 @@ img {
 /* line 2, ../scss/style/_general.scss */
 body {
   font-family: "Arial",sans-serif;
-  background: url('../img/bg-home.png?1438227325');
+  background: url('../img/bg-home.png?1438356555');
   font-size: 14px;
   font-weight: 100;
   color: #858585;
@@ -995,6 +995,218 @@ footer #footer-bottom p {
 }
 
 /* AKHIR FOOTER */
+<<<<<<< HEAD
+=======
+/* line 1, ../scss/style/_landing.scss */
+#landing {
+  position: relative;
+  height: 100vh;
+  background: url('../img/bg-landing.jpg?1437901126') top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: -2;
+}
+/* line 12, ../scss/style/_landing.scss */
+#landing h1 {
+  color: #2B5284;
+  margin-top: -36px;
+  font-size: 20px;
+  line-height: 25px;
+}
+/* line 18, ../scss/style/_landing.scss */
+#landing h1 span {
+  display: block;
+  color: #919191;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* line 28, ../scss/style/_landing.scss */
+#togglepause {
+  -moz-border-radius: 0 0 0 0;
+  -webkit-border-radius: 0;
+  border-radius: 0 0 0 0;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  background: #f29e0d;
+  border: 0;
+  color: #fff;
+  padding: 0 10px 0 0;
+  outline: 0;
+  outline-style: none;
+  outline-width: 0;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  text-shadow: 0 1px 2px #5e5e5e;
+}
+/* line 45, ../scss/style/_landing.scss */
+#togglepause:hover {
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  background: #da8e0c;
+}
+/* line 48, ../scss/style/_landing.scss */
+#togglepause:hover i {
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  background: #c27e0a;
+}
+/* line 54, ../scss/style/_landing.scss */
+#togglepause i {
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  text-shadow: 0 1px 1px #5e5e5e;
+  padding: 8px;
+  background: #da8e0c;
+  color: #fff;
+  margin-right: 5px;
+}
+/* line 67, ../scss/style/_landing.scss */
+#togglepause:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -3px;
+  right: -3px;
+  bottom: -3px;
+  left: -3px;
+  background: rgba(255, 255, 255, 0.3);
+  z-index: -1;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* line 82, ../scss/style/_landing.scss */
+#kotak {
+  margin-top: 100px;
+  position: relative;
+  background: #fff;
+  width: 50%;
+  margin: auto;
+}
+/* line 88, ../scss/style/_landing.scss */
+#kotak header {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2YxZjFmMSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #f1f1f1));
+  background-image: -moz-linear-gradient(#ffffff, #f1f1f1);
+  background-image: -webkit-linear-gradient(#ffffff, #f1f1f1);
+  background-image: linear-gradient(#ffffff, #f1f1f1);
+  -moz-box-shadow: 0 -2px 3px #ddd inset;
+  -webkit-box-shadow: 0 -2px 3px #ddd inset;
+  box-shadow: 0 -2px 3px #ddd inset;
+  padding-bottom: 15px;
+}
+/* line 93, ../scss/style/_landing.scss */
+#kotak section {
+  display: block;
+}
+/* line 96, ../scss/style/_landing.scss */
+#kotak footer {
+  color: #444;
+  padding: 15px;
+  display: block;
+  border-top: none !important;
+  background: #eee;
+  -moz-box-shadow: 0 1px 5px #ddd inset;
+  -webkit-box-shadow: 0 1px 5px #ddd inset;
+  box-shadow: 0 1px 5px #ddd inset;
+}
+/* line 105, ../scss/style/_landing.scss */
+#kotak:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  bottom: -10px;
+  left: -10px;
+  background: rgba(255, 255, 255, 0.3);
+  z-index: -1;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* line 119, ../scss/style/_landing.scss */
+.logo {
+  margin: auto;
+  display: block;
+  top: -50px;
+  position: relative;
+  width: 70px;
+  height: 80%;
+}
+
+/* line 128, ../scss/style/_landing.scss */
+.btn {
+  background: #fff;
+  overflow: hidden;
+  padding: 25px 50px 20px 50px;
+  display: inline-block;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  position: relative;
+  top: -40px;
+  margin-bottom: -40px;
+}
+/* line 137, ../scss/style/_landing.scss */
+.btn a {
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  font-weight: bold;
+  color: #444;
+  font-size: 28px;
+  line-height: 30px;
+}
+/* line 143, ../scss/style/_landing.scss */
+.btn a:hover {
+  color: #3e9968;
+}
+/* line 146, ../scss/style/_landing.scss */
+.btn a span {
+  font-weight: normal;
+  color: #aaa;
+  display: block;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+/* line 157, ../scss/style/_landing.scss */
+#awan {
+  position: relative;
+  overflow: hidden;
+  width: 950px;
+  height: 250px;
+}
+
+/* line 160, ../scss/style/_landing.scss */
+.awan-viewport {
+  position: relative;
+  /* relative, absolute, fixed */
+  overflow: hidden;
+}
+
+/* line 164, ../scss/style/_landing.scss */
+.awan-latar {
+  position: absolute;
+  top: 0;
+}
+
+>>>>>>> 950d6feeb10c3d4b36249c29d19dd6870e602bcd
 @media screen and (max-width: 768px) {
   /* line 5, ../scss/style/_responsive.scss */
   audio {

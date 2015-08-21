@@ -1,10 +1,44 @@
-audio {
-  width: 30%;
-	position: relative;
-	z-index: 1;
-	bottom: 42px;
-	right: 5px;
-	float: right;
+// audio {
+//   width: 30%;
+// 	position: relative;
+// 	z-index: 1;
+// 	bottom: 42px;
+// 	right: 5px;
+// 	float: right;
+// }
+
+
+ul.pagination {
+	
+	a {		
+     	border : 1px solid #DEDEDE;
+		padding : 3px 8px;
+		font-size: 12px;
+		color: $text-gray;
+		text-decoration: none;
+
+
+		@include border-radius(3px);
+		@include transition-duration(.3s);
+		// &:hover {
+		// 	background : #e3e3e3;
+		//     border : 1px solid lighten($hijau,10%);
+		// 	color: $hijau;
+		// }
+
+		&:hover, &.active {
+			
+			background : $hijau;
+
+			color: $putih;
+			border : 1px solid $hijau;
+
+		}
+	}
+
+	li {		
+		display: inline-table;
+	}
 }
 #main-menu {
 	display: block;
@@ -31,7 +65,7 @@ audio {
 	right: 0px;
 	bottom: 0;
 	height: auto;
-	background: rgba(43, 82, 132, 0.6);
+	background: rgba(0, 18, 41, 0.6);
 	z-index: 1;
 	color: $putih;
 }
@@ -110,7 +144,7 @@ button{
     color:$putih;
     // font:2.4em Futura, ‘Century Gothic’, AppleGothic, sans-serif;
     font-size:14px;
-    padding:10px 15px;
+    padding:8px 10px;
     background:$hijau;
     // background-color:rgba(255,204,0,1);
     border:0;
@@ -182,8 +216,10 @@ padding-left:10px;
 	}
 	.logo{
 		// float: left;
-		top:0;
+		top:5px;
 		width: 50px;
+		margin-left: 20px;
+		margin-right: 10px;
 	}
 	h1{
 		padding-top:15px;
@@ -485,7 +521,7 @@ section {
 #produk {
 	// border-top: 3px solid lighten($biru,20%);	
 	// padding-top: 15px;
-	margin : 5px 0 20px 0;
+	margin : 20px 0 20px 0;
 }
 /* AKHIR KONTEN PRODUK UNGGULAN*/ 
 
