@@ -332,91 +332,98 @@ section article img { -moz-transition-duration: 0.3s; -o-transition-duration: 0.
 
 /*  AKHIR KONTEN BERITA  */
 /* BAGIAN ASIDE */
-/* line 364, ../scss/style/_main.scss */
+/* line 366, ../scss/style/_main.scss */
+aside .detail-box { padding: 10px; }
+/* line 368, ../scss/style/_main.scss */
+aside .detail-box li:last-child { border-bottom: none; }
+/* line 372, ../scss/style/_main.scss */
+aside .item-box { padding: 3px 0; }
+
+/* line 376, ../scss/style/_main.scss */
 .agenda { clear: both; overflow: hidden; display: block; padding: 20px 15px 10px 20px; }
-/* line 365, ../scss/style/_main.scss */
+/* line 377, ../scss/style/_main.scss */
 .agenda .item-agenda { padding-bottom: 5px; border-bottom: 1px dashed #e3e3e3; overflow: hidden; }
-/* line 370, ../scss/style/_main.scss */
-.agenda .item-agenda:last-child { border-bottom: 0; margin-bottom: 0; padding-bottom: 0; }
 /* line 382, ../scss/style/_main.scss */
+.agenda .item-agenda:last-child { border-bottom: 0; margin-bottom: 0; padding-bottom: 0; }
+/* line 394, ../scss/style/_main.scss */
 .agenda li { margin-bottom: 10px; }
-/* line 387, ../scss/style/_main.scss */
-.agenda .kalender { -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; background: #9cb9df; clear: both; float: left; font-size: 12px; margin: 0 10px 10px 0; margin-bottom: 10px; overflow: hidden; text-align: center; width: 60px; color: #ffffff; }
 /* line 399, ../scss/style/_main.scss */
+.agenda .kalender { -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; background: #9cb9df; clear: both; float: left; font-size: 12px; margin: 0 10px 10px 0; margin-bottom: 10px; overflow: hidden; text-align: center; width: 60px; color: #ffffff; }
+/* line 411, ../scss/style/_main.scss */
 .agenda .kalender .hari { display: block; background: #2B5284; padding: 2px; margin-bottom: 2px; }
-/* line 405, ../scss/style/_main.scss */
+/* line 417, ../scss/style/_main.scss */
 .agenda .kalender .tanggal { font-size: 20px; font-weight: bold; display: block; }
-/* line 410, ../scss/style/_main.scss */
-.agenda .kalender .bulan { display: block; }
-/* line 415, ../scss/style/_main.scss */
-.agenda .detail-agenda { line-height: 25px; display: block; overflow: hidden; }
 /* line 422, ../scss/style/_main.scss */
+.agenda .kalender .bulan { display: block; }
+/* line 427, ../scss/style/_main.scss */
+.agenda .detail-agenda { line-height: 25px; display: block; overflow: hidden; }
+/* line 434, ../scss/style/_main.scss */
 .agenda .detail-agenda .acara a { line-height: 20px; color: #3e76be; }
-/* line 425, ../scss/style/_main.scss */
+/* line 437, ../scss/style/_main.scss */
 .agenda .detail-agenda .acara a:hover { -moz-transition-duration: 0.5s; -o-transition-duration: 0.5s; -webkit-transition-duration: 0.5s; transition-duration: 0.5s; color: #2B5284; text-decoration: underline; }
 
-/* line 435, ../scss/style/_main.scss */
-.box { overflow: hidden; background: #ffffff; margin-bottom: 20px; -moz-box-shadow: 1px 0 15px #c7c7c7; -webkit-box-shadow: 1px 0 15px #c7c7c7; box-shadow: 1px 0 15px #c7c7c7; }
-/* line 436, ../scss/style/_main.scss */
-.box img { position: relative; top: 8px; left: 10px; float: left; }
 /* line 447, ../scss/style/_main.scss */
+.box { overflow: hidden; background: #ffffff; margin-bottom: 20px; -moz-box-shadow: 1px 0 15px #c7c7c7; -webkit-box-shadow: 1px 0 15px #c7c7c7; box-shadow: 1px 0 15px #c7c7c7; }
+/* line 448, ../scss/style/_main.scss */
+.box img { position: relative; top: 8px; left: 10px; float: left; }
+/* line 459, ../scss/style/_main.scss */
 .box .judul-box { background: #3e9968; color: #ffffff; padding: 15px 50px 15px; border-bottom: 4px solid #FFcc00; }
-/* line 455, ../scss/style/_main.scss */
+/* line 467, ../scss/style/_main.scss */
 .box #unit-kerja li, .box #informasi-populer li { padding: 10px; }
-/* line 462, ../scss/style/_main.scss */
+/* line 474, ../scss/style/_main.scss */
 .box #unit-kerja li:last-child, .box #informasi-populer li:last-child { border-bottom: 0; }
-/* line 466, ../scss/style/_main.scss */
-.box #unit-kerja li:hover, .box #informasi-populer li:hover { -moz-transition-duration: 0.5s; -o-transition-duration: 0.5s; -webkit-transition-duration: 0.5s; transition-duration: 0.5s; background: #e4e4e4; }
-/* line 473, ../scss/style/_main.scss */
-.box .item-box { border-bottom: 1px dashed #d2d2d2; }
-/* line 475, ../scss/style/_main.scss */
-.box .item-box a { display: block; color: #858585; }
 /* line 478, ../scss/style/_main.scss */
+.box #unit-kerja li:hover, .box #informasi-populer li:hover { -moz-transition-duration: 0.5s; -o-transition-duration: 0.5s; -webkit-transition-duration: 0.5s; transition-duration: 0.5s; background: #e4e4e4; }
+/* line 485, ../scss/style/_main.scss */
+.box .item-box { border-bottom: 1px dashed #d2d2d2; }
+/* line 487, ../scss/style/_main.scss */
+.box .item-box a { display: block; color: #858585; }
+/* line 490, ../scss/style/_main.scss */
 .box .item-box a:hover { -moz-transition-duration: 0.5s; -o-transition-duration: 0.5s; -webkit-transition-duration: 0.5s; transition-duration: 0.5s; color: #3e9968; }
 
 /* AKHIR ASIDE */
 /* BAGIAN KONTEN PRODUK UNGGULAN*/
-/* line 490, ../scss/style/_main.scss */
+/* line 502, ../scss/style/_main.scss */
 #produk { margin: 20px 0 20px 0; }
 
-/* line 494, ../scss/style/_main.scss */
+/* line 506, ../scss/style/_main.scss */
 #produk-detail { text-align: center; }
-/* line 495, ../scss/style/_main.scss */
+/* line 507, ../scss/style/_main.scss */
 #produk-detail li { display: inline-table; padding: 5px; }
-/* line 501, ../scss/style/_main.scss */
+/* line 513, ../scss/style/_main.scss */
 #produk-detail img { -moz-transition-duration: 0.5s; -o-transition-duration: 0.5s; -webkit-transition-duration: 0.5s; transition-duration: 0.5s; opacity: 0.9; }
-/* line 504, ../scss/style/_main.scss */
+/* line 516, ../scss/style/_main.scss */
 #produk-detail img:hover { opacity: 1; }
 
 /* AKHIR KONTEN PRODUK UNGGULAN*/
 /*  BAGIAN FOOTER  */
-/* line 514, ../scss/style/_main.scss */
+/* line 526, ../scss/style/_main.scss */
 footer { border-top: solid 6px #FFcc00; color: #ababab; }
-/* line 520, ../scss/style/_main.scss */
+/* line 532, ../scss/style/_main.scss */
 footer h3 { color: #FFcc00; border-bottom: 1px solid #858585; padding: 0 0 5px 0px; }
-/* line 531, ../scss/style/_main.scss */
+/* line 543, ../scss/style/_main.scss */
 footer .kontak h4 span { font-size: 90%; font-weight: normal; }
-/* line 537, ../scss/style/_main.scss */
+/* line 549, ../scss/style/_main.scss */
 footer .kontak ul { margin-top: 15px; }
-/* line 542, ../scss/style/_main.scss */
+/* line 554, ../scss/style/_main.scss */
 footer .kontak li { margin-bottom: 10px; }
-/* line 547, ../scss/style/_main.scss */
-footer .kontak p { padding: 0 !important; }
-/* line 555, ../scss/style/_main.scss */
-footer .tautan ul { margin-top: 5px; padding-top: 4px; }
 /* line 559, ../scss/style/_main.scss */
+footer .kontak p { padding: 0 !important; }
+/* line 567, ../scss/style/_main.scss */
+footer .tautan ul { margin-top: 5px; padding-top: 4px; }
+/* line 571, ../scss/style/_main.scss */
 footer .tautan ul li { border-bottom: 1px dotted #858585; }
-/* line 564, ../scss/style/_main.scss */
-footer .tautan a { padding: 5px 0; color: #ababab; }
-/* line 568, ../scss/style/_main.scss */
-footer .tautan a:hover { -moz-transition-duration: 0.5s; -o-transition-duration: 0.5s; -webkit-transition-duration: 0.5s; transition-duration: 0.5s; color: #FFcc00; text-decoration: underline; }
 /* line 576, ../scss/style/_main.scss */
+footer .tautan a { padding: 5px 0; color: #ababab; }
+/* line 580, ../scss/style/_main.scss */
+footer .tautan a:hover { -moz-transition-duration: 0.5s; -o-transition-duration: 0.5s; -webkit-transition-duration: 0.5s; transition-duration: 0.5s; color: #FFcc00; text-decoration: underline; }
+/* line 588, ../scss/style/_main.scss */
 footer #footer-top { background: #505050; padding: 15px 0; }
-/* line 577, ../scss/style/_main.scss */
+/* line 589, ../scss/style/_main.scss */
 footer #footer-top p { text-align: left; padding-top: 15px; }
-/* line 586, ../scss/style/_main.scss */
+/* line 598, ../scss/style/_main.scss */
 footer #footer-bottom { background: #313131; font-size: .9em; padding: 10px 0; }
-/* line 587, ../scss/style/_main.scss */
+/* line 599, ../scss/style/_main.scss */
 footer #footer-bottom p { text-align: center; color: #ffffff; }
 
 /* AKHIR FOOTER */

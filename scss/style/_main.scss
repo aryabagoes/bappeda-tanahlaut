@@ -361,6 +361,18 @@ section {
 
 
 /* BAGIAN ASIDE */ 
+
+aside{
+	.detail-box{
+		padding:10px;
+		li:last-child{
+			border-bottom: none;
+		}
+	}
+	.item-box{
+		padding: 3px 0;
+	}
+}
 .agenda {
 	.item-agenda {
 		padding-bottom: 5px;
