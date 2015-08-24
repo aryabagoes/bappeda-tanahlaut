@@ -486,8 +486,10 @@ footer #footer-bottom p { text-align: center; color: #ffffff; }
 .komentar .comment-author a { color: #3e9968; }
 /* line 33, ../scss/style/_comment.scss */
 .komentar .cmeta { color: #c1c1c1; }
+/* line 36, ../scss/style/_comment.scss */
+.komentar .reply { margin-left: 75px !important; }
 
-/* line 39, ../scss/style/_comment.scss */
+/* line 42, ../scss/style/_comment.scss */
 .respond { background: #eee; padding: 15px; }
 
 @media screen and (max-width: 768px) { /* line 5, ../scss/style/_responsive.scss */
