@@ -355,6 +355,12 @@ section {
 			border : solid 2px #F1F1F1;
 			@include border-radius(5px);
 		}
+		ul,ol{
+			padding-left: 20px;
+		}
+		li{
+			display: list-item;
+		}
 	}
 }
 /*  AKHIR KONTEN BERITA  */
