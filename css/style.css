@@ -432,7 +432,7 @@ footer #footer-bottom p { text-align: center; color: #ffffff; }
 
 /* AKHIR FOOTER */
 /* line 1, ../scss/style/_landing.scss */
-#landing { position: relative; height: 100vh; background: url('../img/bg-landing.jpg?1437789703') top; background-size: cover; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; z-index: -2; }
+#landing { position: relative; height: 100vh; background: url('../img/bg-landing.jpg?1437789703') top; background-size: cover; display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; @inclide flex-direction(column); justify-content: center; align-items: center; text-align: center; z-index: -2; }
 /* line 12, ../scss/style/_landing.scss */
 #landing h1 { color: #2B5284; margin-top: -36px; font-size: 20px; line-height: 25px; }
 /* line 18, ../scss/style/_landing.scss */
@@ -567,4 +567,6 @@ footer #footer-bottom p { text-align: center; color: #ffffff; }
   /* line 122, ../scss/style/_responsive.scss */
   nav ul li > ul li ul li > a { padding: 8px 8px 8px 40px; }
   /* line 138, ../scss/style/_responsive.scss */
-  #landing header { margin-bottom: 50px; } }
+  #landing header { margin-bottom: 50px; }
+  /* line 141, ../scss/style/_responsive.scss */
+  #landing h1 span { font-size: 13px; } }

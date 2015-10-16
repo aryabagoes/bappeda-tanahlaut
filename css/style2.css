@@ -447,4 +447,6 @@ footer #footer-bottom p { text-align: center; color: #ffffff; }
   /* line 122, ../scss/style/_responsive.scss */
   nav ul li > ul li ul li > a { padding: 8px 8px 8px 40px; }
   /* line 138, ../scss/style/_responsive.scss */
-  #landing header { margin-bottom: 50px; } }
+  #landing header { margin-bottom: 50px; }
+  /* line 141, ../scss/style/_responsive.scss */
+  #landing h1 span { font-size: 13px; } }

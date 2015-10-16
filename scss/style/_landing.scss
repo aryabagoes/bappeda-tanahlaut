@@ -1,11 +1,11 @@
 #landing{
-
 	position: relative;
 	height: 100vh;
 	background: image-url('bg-landing.jpg') top;
 	background-size: cover;
-	display: flex;
-	flex-direction: column;
+	@include flexbox;
+	@inclide flex-direction(column);
+	// flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
